@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+
+@media (min-width: 1268px) {
+.contact_map .shapeit_headings {
+	margin-left: 62px;
+}
+.navbar-nav {
+	margin-left: 61px;
+}
+.ending .navbar-nav {
+	margin-left: 224px;
+}
+
+
+}
+
+@media(min-width: 992px) {
+
+}
+
+@media (max-width: 991px) {
+.shopping_cart {
+  	right: 22%;
+   }  
+.about_facts ,.about_text_1 , .about_text_2{
+   padding-left:0px;
+   padding-right:0px;
+  
+}
+
+}
+
+@media(max-width: 1200px) and (min-width: 992px) {
+  .shopping_cart {
+  	right: 18%;
+   }  
+}
+ @media(max-width: 1200px) and (min-width: 768px) {
+ .icon-block {
+ width: .74in;
+ height: .74in;
+ font-size: 1.3em;
+ padding: 17px 27px;
+ }
+}
+
+@media(max-width: 1200px) and (min-width: 458px) {
+.offers{
+   background:url(../images/features_res.jpg);
+   text-align:center;
+ }
+
+}
+
+@media(max-width: 768px) and (min-width: 468px) {
+
+.filtr-item .image-box {
+	margin: 0px;
+}
+}
+
+@media(max-width: 1200px) {
+
+   .kinative_para1{
+   	margin: auto;
+   }
+   .header .kinative_para2{
+	margin: 12px auto;
+}
+    .header-text_right span{
+    	display: block;
+    }
+	.header-text_right{
+		margin-left:0px;
+		padding:0px 0px;
+	}
+	.header-text_left,.header-text_right{
+		text-align: center;
+	}
+	h1 {
+    font-size: 2.7em;
+   }
+   .header-text_left .btn{
+   	display: none;
+   }
+	.grey{
+		font-size: 2em;
+		margin: 0px 0px
+	}
+	.social_icons {
+		    margin: 0px 0px 18px;
+	}
+
+
+}
+
+@media(max-width: 992px) {
+.why_us_card1,.why_us_card2,.why_us_card3{
+	margin-bottom: 40px;
+}
+.header_contents {
+    padding: 100px 0px 50px;
+   }
+ .header-text_right .btn{
+ 	margin:30px 0px;
+ }
+}
+
+/*gym*/
+
+
+@media(max-width:768px) {
+
+}
+
+@media(max-width: 600px) {
+.signup .owl-theme .owl-controls .owl-buttons [class*="owl-"] {
+	margin: 39px 2px;
+}
+.signup .owl-theme .owl-controls .owl-buttons {
+	left: 0px;
+}
+}
+
+@media(max-width: 468px) {
+.features .shapeit_paragraph {
+	padding: 0px 5px;
+	margin-top: 19px;
+}
+.features .fatures_topics {
+	margin-top: 0px;
+}
+}
+
+@media(max-width: 380px) {
+.gym_class .image_frame .frame {
+	display: none;
+}
+.frame {
+	display: none;
+}
+.video_overlay .shapeit_semiheading {
+	font-size: 14px;
+}
+.video_overlay .shapeit_paragraph {
+	font-size: 10px;
+}
+}

@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.header{
+   background: url(../images/hero.jpg);
+    background-size: cover;
+    height: 645px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg{
+   height: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.header_contents{
+ padding: 200px 0px 50px;
+    height: 100%;
+}
+.header-text_right{
+    margin-left:  40px;
+    padding: 56px 0px;
+}
+.header-text_right .btn{
+    margin:0px 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-nav a.active.hvr-underline-from-left{
+  color:red!important;
+}
+
+/****************custom underline link*************/
+.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
+    right: 17px;
+}
+.hvr-underline-from-left::before {
+    background: red;
+    margin: 11px 0px;
+    left:17px;
+    height: 2px;
+}
+/****************custom underline link**********/
+
+.opaque-navbar {
+    background-color: transparent;
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    padding: 38px 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+      padding: 5px 0px;
+}
+
+.header .kinative_para2{
+    margin: -12px 0px 26px;
+}
+.navbar-inverse .navbar-toggle{
+    background-color: transparent;
+    color: red;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+    color: red;
+}
+@media (max-width: 992px) {
+ 
+  .opaque-navbar {
+    background-color: transparent;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+}
+
+
+
+/*CHANGE THE BREAKPOINT*/
+@media (max-width: 992px) {
+
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+      text-align: center;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: inline-block;
+  }
+
+  .collapse.in{
+      display:block !important;
+      background: #000;
+      -webkit-transition:  background .5s ease-out;
+  -moz-transition: background .5s ease-out;
+  -o-transition: background .5s ease-out;
+  transition:  background .5s ease-out;
+  }
+}
+/*CHANGE THE BRKPOINT*/
