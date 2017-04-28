@@ -47,7 +47,7 @@ body{
 
 .active:hover::after {
     width: 100%;
-    //transition: width .3s;
+    transition: width .3s;
 }
 .btn {
  
@@ -61,7 +61,7 @@ body{
     font-weight: 700;
     color: red;
   -webkit-transition: all 0.7s ease-out;
-  -transition: all 0.7s ease-out;
+   transition: all 0.7s ease-out;
  /* background: -webkit-linear-gradient(right, rgba(255, 0, 0, 0.8), rgba(255, 150, 150, 0.8), rgba(34,34,34,0), rgba(34,34,34,0));
   background: linear-gradient(270deg, rgba(255, 0, 0, 0.8), rgba(255, 150, 150, 0.8), rgba(34,34,34,0), rgba(34,34,34,0));
   background-position: 1% 50%;
@@ -89,6 +89,12 @@ h1{
 h2{
     font-size: 34px;
     font-weight: 700;
+}
+.section_tag{
+    display: inline-block; 
+     font-size: 3.7em;
+    font-weight: 900;
+    margin-left: 24px
 }
 .grey{
     display: block;
@@ -121,13 +127,33 @@ h2{
   
     font-size: 16px;
     max-width: 435px;
-    color: #494949;
+    color: #454545;
    
 
 }
 
-mark{
+.red_bold{
 	background: transparent;
 	font-weight: 700;
 	color: red;
+}
+
+.red{
+  color: red;
+  background: transparent;
+    font-weight: 700;
+}
+.black{
+  color: #101010;
+  background: transparent;
+    font-weight: 700;
+}
+
+/*margins and paddings*/
+
+.margin-top-130{
+  margin-top: 130px;
+}
+.margin-top-75{
+   margin-top: 75px;
 }
