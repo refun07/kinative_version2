@@ -20,7 +20,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 .header_contents{
  padding: 200px 0px 50px;
@@ -44,7 +44,9 @@
 .navbar-nav a.active.hvr-underline-from-left{
   color:red!important;
 }
-
+.navbar-brand>img{
+  margin-top: -8px;
+}
 /****************custom underline link*************/
 .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
     right: 17px;

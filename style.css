@@ -76,7 +76,7 @@ body{
 	.video_bg {
     background: url(images/video_bg.jpg);
     background-size: cover;
-    height: 60vh;
+    height: 47vh;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -120,6 +120,145 @@ body{
 }*/
 
 /*******************End of ABOUT US*************/
+.service-card{
+    box-shadow: 0px 0px 15px 7px rgba(230,225,230,0.82);
+    -webkit-box-shadow: 0px 0px 15px 7px rgba(230,225,230,0.82);
+    -moz-box-shadow: 0px 0px 15px 7px rgba(230,225,230,0.82);    
+    padding: 30px 30px 25px;
+    margin: 60px 0px;
+    
+
+}
+
+.process-list h3{
+   text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 56px 19px 0px 0px;
+    font-weight: 500;
+}
+
+.process-icons h4 {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 18px 19px -5px 0px;
+}
+.icons p{
+   font-size: 14px;
+  margin: 18px 0px 22px;
+  color: #969696;
+}
+
+.icons::before{
+    border-bottom: 2px dotted red;
+    content: "";
+    height: 1px;
+    left: 0%;
+    position: absolute;
+    bottom: 132px;
+    width: 80%;
+    z-index: -3;
+}
+
+.process-icons img{
+      box-shadow: 0px 0px 10px 2px rgba(230,225,230,0.82);
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.nav-tabs {
+    display: inline-block;
+    border-bottom: 0px;
+    margin: 26px -88px -9px 77px;
+    float: right;
+}
+
+.nav-tabs>li>a{
+    font-size: 18px;
+    color: #969696;
+}
+.nav-tabs>li{
+    margin: 0px 40px 0px 0px;
+}
+.f-16{
+  font-size: 16px;
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+   color: #000;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0px;
+    border-bottom-color: transparent;
+  
+}
+
+.nav-tabs > li.active > a::before,
+.nav-tabs > li.active > a:hover::before,
+.nav-tabs > li.active > a:focus::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 17px;
+    bottom: 0;
+    background: #2098D1;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    background: red;
+    margin: 6px 0px;
+    left: 17px;
+    height: 3px;
+}
+
+.nav-tabs>li>a:hover{
+  border-color: transparent;
+}
+.nav>li>a:hover{
+   background: transparent;
+   border- color: transparent;
+}
+.nav-tabs>li>a:hover:before{
+   content: "";
+    position: absolute;
+    z-index: -1;
+    right: 17px;
+    bottom: 0;
+    background: #2098D1;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    background: red;
+    margin: 6px 0px;
+    left: 17px;
+    height: 3px;
+
+}
+/*.nav-tabs>li.active>a{
+  background: red;
+    left: 17px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 100%;
+    bottom: 0;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+}*/
 
 /******************START OF PORTFOLIO***************/
 .portfolio{
@@ -305,6 +444,22 @@ body{
     float: right;
     margin-top: 11px;
 }
+.light_bg img,a{
+  display: inline-block;
+  color: #000;
+  text-align: center;
+  margin: auto;
+}
+
+.light_bg a{
+  position: relative;
+  top: 4px;
+  margin: 0px 7px;
+  font-weight: 700;
+}
+.light_bg a:hover{
+  color: red;
+}
 
 /******************END OF BLOG***************/
 
@@ -387,4 +542,40 @@ form:focus{
     color: #000;
     -webkit-transition: all 0.7s ease-out;
     transition: all 0.7s ease-out;
+}
+
+
+
+
+.projects{
+    background: url(images/project.jpg);
+    padding: 100px 0px 100px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+   /* background-attachment: fixed;*/
+}
+
+.hellos{
+    background: url(images/map.png);
+    padding: 100px 0px 100px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+   /* background-attachment: fixed;*/
+}
+
+.address{
+  margin-top: 30px;
+}
+
+address{
+    display: inline-block;
+    position: relative;
+    top: 26px;
+    left: 20px;
 }

@@ -5,11 +5,23 @@ body{
 	font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
+a:hover,a:visited,a:focus{
+  text-decoration: none;
+}
+.light_bg{
+   background: #f8f8f8;
+    text-align: center;
+    font-weight: 500;
+    padding: 85px 0px 86px;
+}
 
 .hvr-underline-from-left::before {
     background: red;
 }
 
+.color-grey{
+  color: #969696;
+}
 .dark_para{
     font-size: 14px;
     color: #969696;
@@ -27,7 +39,7 @@ body{
     
 }
 .light_para_b{
-    font-size: 18px;
+    font-size: 16px;
     color: #969696;
     font-weight: 300;
     text-align: justify;
@@ -71,6 +83,23 @@ body{
   border: none;
   border: 1px solid red;
 }
+.btn_black {
+    width: 165px;
+    padding: 12px;
+    height: 45px;
+    display: inline-block;
+    background: #000;
+    font-size: 1em;
+    border-radius: 0px;
+    font-weight: 700;
+    color: #fff;
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    text-decoration: none;
+    margin: 0px 0px;
+    border: none;
+}
+
 .hvr-bounce-to-right:before{
     background: red;
 }
