@@ -17,6 +17,17 @@ $(function() {
 });
 
  
+ //magnificpop up
+    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+
+        disableOn:0,
+        fixedContentPos: false
+    });
  
 
 //wow

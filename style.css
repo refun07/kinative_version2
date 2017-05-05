@@ -120,16 +120,22 @@ body{
 }*/
 
 /*******************End of ABOUT US*************/
+#menu{
+  padding: 0px 0px 180px;
+}
 .service-card{
     box-shadow: 0px 0px 15px 7px rgba(230,225,230,0.82);
     -webkit-box-shadow: 0px 0px 15px 7px rgba(230,225,230,0.82);
     -moz-box-shadow: 0px 0px 15px 7px rgba(230,225,230,0.82);    
-    padding: 30px 30px 25px;
-    margin: 60px 0px;
+    padding: 30px 30px 32px;
+    margin: 60px 0px 0px;
     
 
 }
 
+.process-icons{
+  margin-top: -16px;
+}
 .process-list h3{
    text-decoration: none;
     list-style-type: none;
@@ -143,16 +149,18 @@ body{
     display: inline-block;
     list-style-type: none;
     text-decoration: none;
-    margin: 18px 19px -5px 0px;
+    margin: 18px 22px -5px 0px;
 }
+
 .icons p{
    font-size: 14px;
   margin: 18px 0px 22px;
   color: #969696;
+  font-weight: 300;
 }
 
 .icons::before{
-    border-bottom: 2px dotted red;
+    border-bottom: 2px dashed red;
     content: "";
     height: 1px;
     left: 0%;
@@ -160,13 +168,14 @@ body{
     bottom: 132px;
     width: 80%;
     z-index: -3;
+    opacity: .1;
 }
 
 .process-icons img{
       box-shadow: 0px 0px 10px 2px rgba(230,225,230,0.82);
     background: #fff;
     border-radius: 50%;
-    padding: 10px;
+    padding: 14px;
 
 }
 .nav-tabs {
@@ -268,7 +277,6 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: cover;
-   height: 100%;
    width:100%;
 }
 .portfolio-des{
@@ -472,9 +480,8 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: cover;
-   height: 100%;
    width:100%;
-   padding:  100px 0px 100px;
+   padding:  60px 0px 100px;
 }
 
 .gift{
@@ -555,6 +562,8 @@ form:focus{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+
    /* background-attachment: fixed;*/
 }
 
@@ -566,7 +575,7 @@ form:focus{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
-   /* background-attachment: fixed;*/
+    width: 100%;
 }
 
 .address{

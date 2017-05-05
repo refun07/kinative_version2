@@ -8,6 +8,11 @@ body{
 a:hover,a:visited,a:focus{
   text-decoration: none;
 }
+
+#naming img{
+  margin-top: -24px;
+}
+
 .light_bg{
    background: #f8f8f8;
     text-align: center;
@@ -121,7 +126,7 @@ h2{
 }
 .section_tag{
     display: inline-block; 
-     font-size: 3.7em;
+     font-size: 48px;
     font-weight: 900;
     margin-left: 24px
 }

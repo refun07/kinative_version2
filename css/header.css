@@ -69,10 +69,11 @@
 }
 
 .opaque-navbar.opaque {
-    background-color: black;
-    height: 60px;
+   background-color: #000;
+    height: 80px;
     transition: background-color .5s ease 0s;
-      padding: 5px 0px;
+    padding: 14px 0px;
+    opacity: .8;
 }
 
 .header .kinative_para2{
