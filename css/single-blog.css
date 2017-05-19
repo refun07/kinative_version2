@@ -1,0 +1,39 @@
+
+.single-blog-header{
+	height: 198px;
+    width: 66.66%;
+    padding: 22px 64px;
+    top: -95px;
+}
+
+.single-blog-header .blog-heading{
+	font-size: 36px;
+	font-weight: 500;
+}
+
+.margin-82px{
+	margin: 82px 0px 0px 40px;
+}
+.blog-para{
+	font-size: 18px;
+    color: #777777;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 29px;
+    max-width: 774px;
+    letter-spacing: .3px;
+}
+.blog-des .media{
+	 margin-bottom: 23px;
+}
+.blog-des {
+    padding-left: 37px
+}
+
+.blog-des .margin-tl{
+  margin: -2px 0px 20px 6px;
+}
+
+.blog-des .card{
+	margin-top: 83px;
+}

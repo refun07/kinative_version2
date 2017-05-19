@@ -1,0 +1,123 @@
+
+.header{
+   background: url(../images/blogs/blog_hero.jpg);
+    background-size: cover;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content-box{
+	width: 475px;
+	height: 230px;
+	padding: 16px 30px;
+}
+.content-box .blog-auth{
+	margin-bottom: -5px;
+}
+
+.content-box p {
+    margin-top: 0px;
+   } 
+
+ .content-box h2 {
+    font-weight: 400;
+}  
+.media-list {
+    
+    list-style: none;
+}
+.media-body{
+	padding: 0px 5px;
+}
+.card{
+	margin-top: 176px;
+}
+.card-block{
+	width:301px;
+	-webkit-box-shadow: 0px 11px 27px -3px rgba(0,0,0,0.27);
+   -moz-box-shadow: 0px 11px 27px -3px rgba(0,0,0,0.27);
+    box-shadow: 0px 11px 27px -3px rgba(0,0,0,0.27);
+	padding: 12px 27px;
+    width: 301px;
+}
+.blog-right-p{
+	margin: 9px 0px -1px;
+	font-size: 14px;
+    font-weight: 400;
+
+}
+.email-card{
+	width: 301px;
+	margin-top:94px;
+	padding: 27px 0px 37px;
+	text-align: center;
+	-webkit-box-shadow: -1px 1px 31px -2px rgba(0,0,0,0.27);
+    -moz-box-shadow: -1px 1px 31px -2px rgba(0,0,0,0.27);
+    box-shadow: -1px 1px 31px -2px rgba(0,0,0,0.27);
+}
+
+.extra-s{
+	text-align: center;
+    max-width: 273px;
+    margin: 0px auto 22px;
+}
+.btn-submit{
+	background: #000;
+    color: #fff;
+    width: 83%;
+    height: 51px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: .5px;
+    margin: 12px 0px 0px;
+
+}
+
+input.btn.btn-lg{
+	 width: 83%;
+    height: 51px;
+    text-align: left;
+    border: 3px solid red;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 14px;
+    color: #969696;
+    font-weight: 300;
+    cursor: default;
+   } 
+.nav-pills>li>a {
+    color: #000;
+     font-size: 16px;
+    font-weight: 500;
+   /* margin: 0px -81px 0px 93px;*/
+    cursor: pointer;
+}
+
+.nav-pills{
+	  background: #fff;
+    padding: 30px 0px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: -4px 6px 14px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: -4px 6px 14px 0px rgba(0,0,0,0.4);
+    box-shadow: -4px 6px 14px 0px rgba(0,0,0,0.4);
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: red;
+    background-color: transparent;
+}
+
+.contributor{
+	background: url(../images/contributor.jpg);
+    padding: 100px 0px 100px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
