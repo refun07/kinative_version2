@@ -78,7 +78,8 @@
 <section class="single-blog">
   <div class="container">
        <div class="row">
-            <div class="content-box single-blog-header col-md-8">
+
+            <div class="content-box single-blog-header col-md-8 col-xs-12">
                          
                           <h2 class="blog-heading">The importance of user research in UX design</h2>
                            <h3 class="blog-auth">
@@ -100,15 +101,15 @@
                          
                      </div>
 
-                  <div class="col-md-4 main-blog">
+                  <div class="col-md-4 col-xs-12 main-blog">
                      <p class="inline-block margin-82px"><a class="red-post" href="">BACK TO MAIN BLOG</a></p>
                      <div class="arrow">
                             <div class="line"></div>
                             <div class="point"></div>
                           </div>
 
-                  </div> 
-
+                    </div> 
+               </div>
                 <div class="row">
                   <div class="col-md-8">
                      <h2 class="blog-heading">INTRODUCTION<mark class="red">.</mark></h2>
@@ -126,19 +127,12 @@
                     <p class="blog-para max-738">Building a user-centered design requires a deep understanding of consumer experience, which can be only achieved through an in-depth research process before building the first product prototype or move forward with your idea. What you think is revolutionary idea, which will change the world may seem useless product for others. .
                     </p>
                  
-                    <div class="frame" style="text-align: center;">
-         <div class="video_bg">
-        <div class="play " style="display: inline-block;"> 
-          <!-- PLAY BUTTON --> 
-          <a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto"> <span> <img src="images/icons/play_icon.png" alt="play_icon" style="padding:15px;margin:85px 6px 0px"> 
-
-          </span> </a>
-          
-         </div>
-        <p class="shapeit_paragraph">See this intro video</p>
-        </div> <!-- video_bg -->
-      </div>
-
+                  
+    <div class="frame">
+       <div onclick="play();" id="vidwrap"></div>
+   
+    </div>
+    <p class="text-center" style="margin-top: 25px"> Watch this video from our youtube channel</p>
 
 
                     <h3 class="blog-points">PRIORITIZE</h3>
@@ -149,6 +143,24 @@
                     <p class="blog-para max-738">User Research focuses on understanding user behaviours, needs, and motivations through observation techniques, task analysis, and other feedback methodologies. The aim of this research is to improve the usability of a product by incorporating research results to guide the design, development, and refinement of a product.
                     </p>
 
+                    <blockquote class="qoute">
+                      <q class="dark_para_b invert font-light">It’s about catching customers in the act, and providing highly relevant and highly contextual information. - <span class="dark_para_b">T.M. Abir</span></q>
+                    </blockquote>
+
+                     <h3 class="blog-points">PRIORITIZE</h3>
+                    <p class="blog-para max-738">How do you know that you are creating the right user flow? How do you know that CTA buttons are in the right place ? How do you know what people like the most about your product and what they really hate ? These years companies are switching to Agile methodologies and they work with MVP and in order to add new functionalities which will add value, you need to speak with your audience and ask them about how they feel about it.
+                    </p>
+
+                    <h3 class="blog-points">ITERATE</h3>
+                    <p class="blog-para max-738">User Research focuses on understanding user behaviours, needs, and motivations through observation techniques, task analysis, and other feedback methodologies. The aim of this research is to improve the usability of a product by incorporating research results to guide the design, development, and refinement of a product.
+                    </p>
+
+                    <img class="margin-t50" src="images/blogs/blogimage.jpg" alt="blog-image"/>
+                     <p class="text-center" style="margin-top: 10px"> Photo credit: pixel.com</p>
+
+                      <h3 class="blog-points">MAKE IT SIMPLE</h3>
+                    <p class="blog-para max-738">Now with millions of messages, adds and competitors you can’t afford yourself just being OK or ignore your target’s feelings! If a website or app is difficult to use, people leave and where they go? Yes, to your competitors! Will they come back and give you a second chance? To be honest, don’t think so! If the homepage fails to clearly state what a company offers and what users can do on the site, people leave. If users get lost on a website, they leave. If a website’s information is hard to read or doesn’t answer users’ key questions, they leave. It influences conversion rate as if a client can’t find product or service he is interested in easily and fast, he won’t click the button “ buy” or “ contact”. User experience also influences employees productivity, they waste time being lost on your intranet, it is your money you waste by paying them to be at work without getting work done. World is going towards simplicity, the simpler your product is, the better!.
+                    </p>
 
 
                   </div>
@@ -289,7 +301,33 @@
 </section>
 
 
+<section>
+  <div class="contain-fluid">
+    <div class="row">
+         <div class="col-md-12 light_bg">                 
+        </div>
+     </div>             
+  </div>                 
+</section>
 
+<section class="hellos contributor" id="hello">
+    <div class="container">
+        <div class="row">
+             <div class="col-md-12 col-xs-12">
+                  <span id="naming">
+                    <img src="images/icons/section_icon.png" alt="section_icon">
+                    <h2 class="section_tag">SAY HELLO<mark class="red_bold">!</mark></h2>
+                  </span>
+                  <p class="light_para_b">Subscribe to ous newsletter to get new blog posts,freebies,promo codes business and marketing tips directly to your mail box.
+                  </p>
+                  <p><a href="#" class="btn_black hvr-bounce-to-right">REGISTER</a></p>
+             </div>
+
+            
+             
+        </div>
+    </div>
+</section>
 
 
  
@@ -314,5 +352,10 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js'></script>
 <!-- Customized Scripts --> 
 <script src="js/myscript.js"></script>
+
+<script type="text/javascript">
+  //embedded video
+function play(){document.getElementById('vidwrap').innerHTML = '<iframe width="100%" height="380" src="https://www.youtube.com/embed/XsRYcVvGoEI" frameborder="0" allowfullscreen></iframe>';}
+</script>
 </body>
 </html>

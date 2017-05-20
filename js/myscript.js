@@ -34,6 +34,8 @@ $(function() {
 new WOW().init();
  
 
+//embedded video
+function play(){document.getElementById('vidwrap').innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/XsRYcVvGoEI" frameborder="0" allowfullscreen></iframe>';}
 
   
 
