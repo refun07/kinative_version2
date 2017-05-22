@@ -126,8 +126,16 @@ input.btn.btn-lg{
   width: 542px;
     height: 53px;
     padding: 4px 10px;
+    margin: 110px 0px 25px;
 }
 
+.margin-right-45{
+    margin-right: 40px
+}
+
+.margin-left-45{
+    margin-left: 40px
+}
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
     color: red;
     background: transparent;
