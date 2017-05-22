@@ -8,6 +8,9 @@ body{
 .font-raleway{
    font-family: 'Raleway', sans-serif;
 }
+.f-weight500{
+  font-weight: 500;
+}
 a:hover,a:visited,a:focus{
   text-decoration: none;
 }
