@@ -121,3 +121,68 @@ input.btn.btn-lg{
     background-repeat: no-repeat;
     width: 100%;
 }
+
+.pagination{
+  width: 542px;
+    height: 53px;
+    padding: 4px 10px;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    color: red;
+    background: transparent;
+}
+.pagination>li>a{   
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    float: none;
+    padding: 6px 14px 0px 8px;
+    
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: red;
+    background-color: transparent;
+}
+.pagi-line1{
+    margin-top: 14px;
+    width: 11px;
+    background: #000;
+    height: 2px;
+    float: right;
+    margin-left: 0px;
+}
+
+.pagi-point1{
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid #000;
+    float: right;
+    margin-top: 11px;
+}
+.pagi-line2{
+   margin-top: 14px;
+    width: 11px;
+    background: #000;
+    height: 2px;
+    float: left;
+    margin-left: 6px;
+}
+
+.pagi-point2{
+   width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #000;
+    float: right;
+    margin-top: 11px;
+ }   
+
+ .margin-t6{
+  margin-top: 6px;
+}
