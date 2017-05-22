@@ -37,12 +37,13 @@
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
 .navbar-nav a.active.hvr-underline-from-left{
   color:red!important;
+  font-weight: 500;
 }
 .navbar-brand>img{
   margin-top: -8px;

@@ -23,8 +23,8 @@ body{
     -webkit-box-shadow: 0px 0px 19px 10px rgba(230,225,230,0.82);
    -moz-box-shadow: 0px 0px 19px 10px rgba(230,225,230,0.82);
     box-shadow: 0px 0px 19px 10px rgba(230,225,230,0.82);
-      -webkit-transition: all 0.7s ease-out;
-   transition: all 0.7s ease-out;
+      -webkit-transition: all 0.5s ease-out;
+   transition: all 0.5s ease-out;
     
 }
 
@@ -41,6 +41,7 @@ body{
 
 .why_text{
 	font-size: 2.5em;
+  font-weight: 500;
 }
 
 
