@@ -176,6 +176,7 @@ h2{
     font-weight: 700;
 }
 .section_tag{
+    color: #000;
     display: inline-block; 
      font-size: 48px;
     font-weight: 900;
@@ -212,7 +213,7 @@ h2{
   
     font-size: 16px;
     text-align: justify;
-    max-width: 498px;
+    max-width: 510px;
     color: #454545;
    
 
