@@ -154,8 +154,16 @@ body{
     display: inline-block;
     list-style-type: none;
     text-decoration: none;
-    margin: 18px 22px -5px 0px;
+    margin: 22px 18px -5px 0px;
 }
+.icon-bg{
+    box-shadow: 0px 0px 10px 2px rgba(230,225,230,0.82);
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 49px;
+}    
 
 .icons p{
    font-size: 14px;
@@ -168,9 +176,9 @@ body{
     border-bottom: 2px dashed red;
     content: "";
     height: 1px;
-    left: 0%;
+    left: 3%;
     position: absolute;
-    bottom: 132px;
+    bottom: 136px;
     width: 80%;
     z-index: -3;
     opacity: .1;
@@ -180,16 +188,13 @@ body{
 }
 
 .process-icons img{
-      box-shadow: 0px 0px 10px 2px rgba(230,225,230,0.82);
-    background: #fff;
-    border-radius: 50%;
-    padding: 14px;
+    padding: 10px 0px;
 
 }
 .nav-tabs {
     display: inline-block;
     border-bottom: 0px;
-    margin: 26px -88px -9px 77px;
+    margin: 26px -99px -9px 77px;
     float: right;
 }
 
