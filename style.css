@@ -574,13 +574,14 @@ form:focus{
 
 .projects{
     background: url(images/project.jpg);
-    padding: 100px 0px 100px;
+    padding: 105px 0px 120px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    background-position: 0px 49px;
 
    /* background-attachment: fixed;*/
 }
