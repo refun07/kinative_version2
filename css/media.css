@@ -4,9 +4,7 @@
 .contact_map .shapeit_headings {
 	margin-left: 62px;
 }
-.navbar-nav {
-	margin-left: 61px;
-}
+
 .ending .navbar-nav {
 	margin-left: 224px;
 }
@@ -15,63 +13,33 @@
 }
 
 @media(max-width: 1200px) {
-  .nav-tabs{
-    display: inline-block;
-    border-bottom: 0px;
-    margin: 26px 0px -9px 30px;
-    float: left;
- }
- .process-list h3{
-  margin: 5px 15px 8px 0px;
-    
+   .padd {
+    padding: 0px 0px;
 }
-.process-icons h4 {
-    display: block;
-    list-style-type: none;
-    text-decoration: none;
-    margin: auto;
-    text-align: center;
-}
-.icon-bg{
-  margin: auto;
-}  
- .icons::before {
-    border-bottom: 2px dashed red;
-    content: "";
-    height: 1px;
-    transform: rotate(-90deg);
-    transform-origin: left top 0;
-    position: absolute;
-    left: 50%;
-    bottom: 132px;
-    width: 290px;
-    z-index: -3;
-    opacity: .1;
-}
-}
-.service-card{
-  margin: 60px 0px 15px;
-}
-
+  
 }
 
 @media (max-width: 992px) {
- 
+ .table-header{
+      font-size: 10px;
+      margin-left: 0px;
+      margin-bottom: 0px;
+
+    }
+.margin-l30 {
+    margin-left: 11px;
+}
+
+    .circle{
+      margin: auto;
+    }
+    .f-r16{
+      font-size: 10px;
+    }
   .address {
     margin-top: 128px;
 }
-/*.shopping_cart {
-  	right: 22%;
-   }  
-.about_facts ,.about_text_1 , .about_text_2{
-   padding-left:0px;
-   padding-right:0px;
-  
-}
-.inner-box{
-    max-width: 374px;
-    margin: auto;
-}*/
+
  .portfolio-des img{
  	  width: 100%;
  	  height: auto;
@@ -89,161 +57,66 @@
 }
 
 @media(max-width: 1200px) and (min-width: 992px) {
-  .nav-tabs {
-  	display: inline-block;
-    border-bottom: 0px;
-    float: right;
-    margin: 20px -86px;
-   }  
-   .tab-btn{
-     text-align: center;
-   }
+ 
 }
  @media(max-width: 1200px) and (min-width: 768px) {
- .icon-block {
- width: .74in;
- height: .74in;
- font-size: 1.3em;
- padding: 17px 27px;
- }
+
 }
 
 @media(max-width: 1200px) and (min-width: 458px) {
-.offers{
-   background:url(../images/features_res.jpg);
-   text-align:center;
- }
+
 
 }
 
 @media(max-width: 992px) and (min-width: 768px) {
 
-.filtr-item .image-box {
-  margin: 0px;
-}
 
-.icons::before {
-   bottom: 209px;
-  }
 
 }
 
 @media(max-width: 992px) and (min-width: 468px) {
 
-.filtr-item .image-box {
-	margin: 0px;
-}
 
 }
 
 @media(max-width: 768px) and (min-width: 468px) {
 
-.filtr-item .image-box {
-  margin: 0px;
-}
+
 
 }
 
 @media(max-width: 1200px) {
 
-   .kinative_para1{
-   	margin: auto;
-   }
-   .header .kinative_para2{
-	margin: 12px auto;
-  text-align: center;
-}
-    .header-text_right span{
-    	display: block;
-    }
-	.header-text_right{
-		margin-left:0px;
-		padding:0px 0px;
-	}
-	.header-text_left,.header-text_right{
-		text-align: center;
-	}
-	h1 {
-    font-size: 2.7em;
-   }
-   .header-text_left .btn{
-   	display: none;
-   }
-	.grey{
-		font-size: 2em;
-		margin: 0px 0px
-	}
-	.social_icons {
-		    margin: 0px 0px 18px;
-	}
-
+  
 
 }
 
 @media(max-width: 992px) {
-  .video_bg{
-    height: 36vh;
-  }
-  .video{
-    margin-top: 50px;
-    padding: 0px 25px;
-  }
-.why_us_card1,.why_us_card2,.why_us_card3{
-	margin-bottom: 40px;
-}
-.header_contents {
-    padding: 100px 0px 50px;
-   }
- .header-text_right .btn{
- 	margin:30px 0px;
- }
- .opaque-navbar .opaque {
-    background-color: black;
-    height: 82px;
-    transition: background-color .5s ease 0s;
-    padding: 26px 7px;
-    width: 100%;
-    overflow-x: hidden;
-}
-.block{
-  display: block;
-  margin: 20px auto;
- }
+  
 }
 
 /*gym*/
 
 
 @media(max-width:768px) {
-  .nav-tabs{
-    margin: 26px -92px -9px 42px;
-  }
-  .process-icons{
-    margin-top: 15px;
-  }
-   .hellos{
-    background-position: -707px 307px;
-  }
-  .icons::before {
-   bottom: 212px;
- } 
- .section_tag{
-  font-size: 30px;
-  margin-left: 12px;
- }
-#naming img{
-  margin-top: -16px;
-    width: 24px;
-}
+  
 }
 
 @media(max-width: 600px) {
-  .portfolio-item .portfolio-text{
-  	margin-top: 80px;
-  }
+ 
 }
 
 @media(max-width: 468px) {
+  .media-body{
+   padding: 23px 2px;
+}
+  .business-card {
+     padding: 3px 3px;
+  }
+
+  .faculty-info .margin-r6 {
+    margin: 0px 2px;
+}
  
 }
 

@@ -1,0 +1,84 @@
+ .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: #212121;
+        background-color: #FAFAFA;
+        border-color: #EEEEEE;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .more-less {
+        float: right;
+        color: #212121;
+    }
+   .panel-group .panel+.panel {
+    margin-top: -10px;
+   }
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #EEEEEE;
+    }
+/*.panel-group .panel {
+    border: 8px solid #eee;
+
+}*/
+  #accordion {
+       position: relative;
+       top: 30px;
+        background: #eee;
+   }     
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #ac1f24;
+    border-color: #ddd;
+    padding: 2px 22px;
+}
+.card-box {
+    padding: 35px 30px 30px;
+}
+ 
+.glyphicon {
+    position: relative;
+    top: -7px;
+   float: right;
+    width: 30px;
+    background: #cb2228;
+    color: #fff;
+    height: 30px;
+    border-radius: 50%;
+    padding: 7px 8px;
+}
+ .two, .three{
+        border: 8px solid #eee;
+ }
+.para-n {
+    padding: 5px 25px 0px;
+    line-height: 29px;
+}
+.panel-body{
+    background: #fff;
+}
+#collapseOne{
+    background: rgb(238, 238, 238);
+    padding: 6px 6px;
+    transition: .2s;
+}
+#collapseTwo,#collapseThree{
+    background: rgb(238, 238, 238);
+    transition: .2s;
+    
+}

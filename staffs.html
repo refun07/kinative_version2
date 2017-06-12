@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>BUET-IWFM </title>
+        <link href="libraries/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css'>
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css'>
+        <link rel="stylesheet" href="libraries/magnific/magnific-popup.css">
+        <link rel="stylesheet" href="libraries/hover-min.css"/>
+        <!-- Core Owl Carousel CSS File  *  v1.3.3 -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+        <link href="css/component.css" rel="stylesheet"/>
+        <link href="css/header.css" rel="stylesheet"/>
+        <link href="style.css" rel="stylesheet"/>
+        <link href="css/staffs.css" rel="stylesheet"/>
+        <link href="css/media.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <!--
+            ********************************************************************
+            * HEADER SECTION
+            ********************************************************************
+            -->
+        <header class="clearfix">
+            <!-- end topline -->
+            <div class="upper-header">
+                <div class="container">
+                    <div class="logo">
+                        <a href="#"><img src="images/buethederlogo.png" class="img-responsive" alt=""></a>
+                    </div>
+                    <div class="header-info">
+                        <span class="inline margin-r30">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <p class="inline light-p margin-r6 hover-g">iwfmbuet@buet.com</p>
+                        </span>
+                        <span class="inline">
+                            <i class="fa fa-phone-square" aria-hidden="true"></i>
+                            <p class="inline light-p margin-r6 hover-g">555-5555-55555</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Upper-header -->
+            <div class="navbar navbar-default navbar-static-top " data-spy="affix" data-offset-top="10">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">BUET HOME</a></li>
+                            <li><a href="#contact">HOME</a></li>
+                            <li><a href="#contact">ACADEMICS</a></li>
+                            <li><a href="#contact">ADMISSION</a></li>
+                            <li class="dropdown ">
+                                <a href="#" id="drop1" data-toggle="dropdown" class="dropdown-toggle" role="button">FACULTY & STAFFS</a>
+                                <ul role="menu" class="dropdown-menu" aria-labelledby="drop1">
+                                    <li role="presentation"><a href="#" role="menuitem">FACULTY</a></li>
+                                    <li role="presentation"><a href="#" role="menuitem">STAFFS</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown ">
+                                <a href="#" id="drop1" data-toggle="dropdown" class="dropdown-toggle" role="button">RESEARCH</a>
+                                <ul role="menu" class="dropdown-menu" aria-labelledby="drop1">
+                                    <li role="presentation"><a href="#" role="menuitem">BUET FUNDED</a></li>
+                                    <li role="presentation"><a href="#" role="menuitem">NATIONAL FUNDED</a></li>
+                                    <li role="presentation"><a href="#" role="menuitem">INTERNATIONAL FUNDED</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#contact">STUDENT RESOURCE</a></li>
+                            <li><a href="#contact">ADVISORY SERVICE</a></li>
+                            <li><a href="#contact">EVENTS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </header>
+        <!--  START OF ABOUT IWFM -->
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="about-info m">
+                            <h2 class="semi-header">CURRENT STAFFS</h2>
+                            <div class="col-md-12 border">
+                            </div>
+                        </div>
+                    </div>
+                     
+                    
+
+                    <div class="search col-sm-12">
+                         <input type="text" id="input-search" placeholder="Search Staffs By Name">
+                         <span  class="fa fa-search search-icon"></span>
+                     </div>
+
+                </div>
+            </div>
+            <!-- container -->
+        </section>
+        <!-- about -->
+        <section class="staffs">
+            <div class="container">
+            <div class="row">
+            <div class="esconde col-sm-12" id="opdRetro">
+            <table class="table table-striped table-hover box-s ">
+                <thead>
+                    <tr class="bg-primary">
+                        <th>
+                            <p class="table-header">NAME</p>
+                        </th>
+                        <th class="f-r16">DESIGNATION</th>
+                        <th class="f-r16">CONTACT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- para abrir em outra aba adicionar target="_blank" -->
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline-b margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">,Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                            <div class=" col-xs-12 padd">
+                                <div class="header-info margin-neu">
+                                    <span class="inline margin-r6">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                                    </span>
+                                    <span class="inline">
+                                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div class=" col-xs-12 padd" >
+                                <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                                <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-xs-12 padd">
+                            <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                            <div>
+                        </td>
+                        <td>
+                        <div class=" col-xs-12 padd">
+                        <div class="header-info margin-neu">
+                        <span class="inline margin-r6">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                        </span>
+                        <span class="inline">
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                        <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                        </span>
+                        </div>
+                        </div> 
+                        </td> 
+                    </tr>
+                    <tr >
+                    <td>
+                    <div class=" col-xs-12 padd" > 
+                    <img src="images/honathon.jpg" alt="Scott Stevens" class="img-responsive img-circle inline circle" />
+                    <p class="inline margin-l30 f-weight700 f-r16">MD.Mahabubur Rahman Khan</p>
+                    </div>
+                    </td>
+                    <td> 
+                    <div class="col-xs-12 padd">
+                    <p class="staff-df f-r16">Assistant Experiement Engineer</p>
+                    <div>  
+                    </td>
+                    <td>
+                    <div class=" col-xs-12 padd">
+                    <div class="header-info margin-neu">
+                    <span class="inline margin-r6">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <p class="inline light-p margin-r6 hover-g f-r16">iwfmbuet@buet.com</p>
+                    </span>
+                    <span class="inline">
+                    <i class="fa fa-phone-square" aria-hidden="true"></i>
+                    <p class="inline light-p margin-r6 hover-g f-r16">555-5555-55555</p>
+                    </span>
+                    </div>
+                    </div> 
+                    </td> 
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+            </div>
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row footer-ele">
+                    <div class="col-md-4">
+                        <h2 class="footer-header">IWFM</h2>
+                        <h2 class="footer-des">Bangladesh University of Engineering and Technology</h2>
+                        <p class="para-n">
+                            The Institute pursues research and capacity development in the field of water and flood. management that is vital for economic development and social prosperity of the country. The Institute also provides advisory and consultancy services to government and non-government organizations
+                        </p>
+                    </div>
+                    <div class="col-md-3 links">
+                        <h2 class="footer-header">Quick Links</h2>
+                        <div class="arrow">
+                            <div class="line"></div>
+                            <div class="point"></div>
+                            <p class="inline-b link-p"><a href="">About IWFM</a></p>
+                        </div>
+                        <div class="arrow">
+                            <div class="line"></div>
+                            <div class="point"></div>
+                            <p class="inline-b link-p"><a href="">Latest News</a></p>
+                        </div>
+                        <div class="arrow">
+                            <div class="line"></div>
+                            <div class="point"></div>
+                            <p class="inline-b link-p"><a href="">Our collaboration</a></p>
+                        </div>
+                        <div class="arrow">
+                            <div class="line"></div>
+                            <div class="point"></div>
+                            <p class="inline-b link-p"><a href="">Current dtudents</a></p>
+                        </div>
+                        <div class="arrow">
+                            <div class="line"></div>
+                            <div class="point"></div>
+                            <p class="inline-b link-p"><a href="">Visit iWFM</a></p>
+                        </div>
+                        <div class="arrow">
+                            <div class="line"></div>
+                            <div class="point"></div>
+                            <p class="inline-b link-p"><a href="">Our facilites</a></p>
+                        </div>
+                        <div class="arrow">
+                            <div class="line"></div>
+                            <div class="point"></div>
+                            <p class="inline-b link-p"><a href="">Advisory serviced</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <h2 class="footer-header">Contact Us</h2>
+                        <address class="para-add">
+                            <p>Institute of Water and Flood Management (IWFM),</p>
+                            <p class="para-add margin-t6">Bangladesh University of Engineering and Technology (BUET) Dhaka 1000,Bangladesh
+                            </p>
+                        </address>
+                        <address class="para-add">
+                            Telephone: +88 02 966 5601,PABX:+88 02 966 5650,Ext.7506
+                            Fax: +88 02 861 3046(Attn: IWFM)
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container-fluid">
+                    <div class="copyright-text text-center">
+                        <address class="para-add">Institute of Water and Flood Management (IWFM), BUET, Dhaka-1000, Bangladesh.</address>
+                        <p class="para-add">© 2011 All rights reserved.  |  Developed by:  KINATIVE</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- jQuery Include --> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="libraries/jquery.easing.min.js"></script><!-- Easing Animation Effect --> 
+        <script src="libraries/bootstrap/bootstrap.min.js"></script> <!-- Core Bootstrap v3.2.0 --> 
+        <script type="text/javascript" src="libraries/magnific/jquery.magnific-popup.js"></script> 
+        <script src="libraries/wow.min.js"></script> 
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js'></script>
+        <!-- Customized Scripts --> 
+        <script src="js/myscript.js"></script>
+    </body>
+</html>
