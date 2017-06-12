@@ -1,0 +1,98 @@
+a{
+	color: #000;
+}
+
+a:hover .box-s{
+	box-shadow: 0px 0px 5px 2px rgba(230,225,230,0.82);
+	transition: .3s;
+}
+.header-bg{
+	background: url('../images/hero.jpg');
+	height: 200px;
+	color:#fff;
+}
+
+.mini-header{
+	position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    top: 39px;
+}
+.header-para{
+	font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 59px;
+}
+.mini-header::after{
+	content: '';
+    position: absolute;
+    width: 64px;
+    height: 0.5px;
+    color: #fff;
+    background: #fff;
+    top: 39px;
+    left: 47.5%;
+}
+.media-object{
+	 box-shadow: 0px 0px 14px 2px rgba(230,225,230,0.82);
+    -webkit-box-shadow: 0px 0px 14px 2px rgba(230,225,230,0.82);
+    -moz-box-shadow: 0px 0px 14px 2px rgba(230,225,230,0.82);
+}
+.media-body{
+	 padding: 23px 23px;
+}
+.media-heading{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.business-card {
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 0px;
+    margin-bottom: 43px;
+}
+.profile-img {
+ 
+  background: white;
+}
+.job {
+  color: #666666;
+  font-size: 17px;
+}
+.mail {
+  font-size: 16px;
+ }
+
+
+/* FACULTY_SINGLE*/
+
+ .education .education-list {
+    list-style-type: none;
+    padding: 8px 0px 13px;
+}
+
+ .education .education-list:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background: #000;
+    left: 50px;
+    
+}
+
+.education .para-b{
+	color: #4b4b4b;
+	font-weight: 500;
+}
+.education p {
+    font-size: 16px;
+    margin-top: -6px;
+}
+
+.members .business-card{
+	    padding: 25px 15px 5px;
+}
