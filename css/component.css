@@ -5,6 +5,11 @@ body{
 	font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
+/*.no-gutter > [class*='col-'] {
+    padding-right:0!important;
+    padding-left:0!important;
+}*/
+
 .font-raleway{
    font-family: 'Raleway', sans-serif;
 }
@@ -79,7 +84,9 @@ a:hover,a:visited,a:focus{
 .color-grey{
   color: #969696;
 }
-
+.color-b-grey{
+  color: #858585;
+}
 
 .dark_para{
     font-size: 14px;
@@ -90,6 +97,12 @@ a:hover,a:visited,a:focus{
     font-size: 18px;
     color: #969696;
     font-weight: 500;
+}
+.s_dark_para_b{
+  font-size: 18px;
+    color: #969696;
+    font-weight: 400;
+
 }
 .light_para{
     font-size: 14px;

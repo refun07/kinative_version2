@@ -181,6 +181,9 @@
 }
 
 @media(max-width: 992px) {
+  .portfolio-des img{
+  width: 100%;
+}
   .video_bg{
     height: 36vh;
   }
@@ -235,6 +238,7 @@
   margin-top: -16px;
     width: 24px;
 }
+
 }
 
 @media(max-width: 600px) {

@@ -1,0 +1,178 @@
+.header{
+	background: url(../images/esn/esn_hero.jpg);
+	 
+ 
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+.main_content{
+	   margin: 186px -10px 0px 54px;
+}
+.main_heading {
+    color: #fff;
+    font-size: 49px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+
+  
+}
+
+.sub_heading {
+        font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: -1px;
+    letter-spacing: .4px;
+    margin-left: 42px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.hr-line{
+	  width: 75px;
+    height: 5.4px;
+    background: #1475f7;
+    border-radius: 5px;
+    border-top: 0px;
+    margin-top: 17px;
+}
+
+.about-client{
+    padding: 100px 0px 100px;
+}
+.client-des{
+    padding-left: 0px;
+    margin-top: -12px;
+}
+.client-des li{
+    list-style-type: none;
+}
+.client-des p{
+    margin-bottom: 4px;
+}
+.client-e-des{
+    margin-top: -29px;
+}
+.client-e-des p{
+    margin-top: 20px;
+    text-align: left;
+    max-width: 660px;
+}
+
+.scopes{
+    padding-left: 20px;
+    position: relative;
+}
+.scopes li{
+    list-style-type: none;
+}
+.scopes li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    background: #0bc0f1;
+    left: 3px;
+    margin-top: 8px;
+}
+
+.challenge{
+    background: #f4f4f4;
+    padding: 100px 0px 50px;
+ }   
+
+ .process{
+    padding: 100px 0px 70px;
+ }
+ .identity{
+     padding: 100px 0px 0px;
+ }
+ .design-ui{
+    background: #f4f4f4;
+    padding: 140px 0px 0px;
+ }
+ .design-rw{
+     padding: 100px 0px 70px;
+ }
+ .design-rw-l{
+    margin-top: 78px;
+ }
+ .company-credit{
+        background: #f4f4f4;
+      
+ }
+  
+ .credit_img{
+    background: url('../images/esn/next_project.png');
+    background-size: cover;
+    height: 467px;
+
+ }
+.credit_img{
+    position: relative;
+}
+ .credit_img img{
+   margin-left: -86px;
+ }
+ 
+ a.next_project_btn{
+  color: red;
+    position: absolute;
+    top: 335px;
+    right: 0px;
+    background: #fff;
+    /* width: 40px; */
+    padding: 30px 12px;
+    /* height: 12px; */
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 999;
+ }
+  .credits {
+    margin-top: 125px;
+    padding-left: 63px;
+}
+/*.credits {
+    margin-top: 50px;
+    padding-left: 20px;
+ }*/
+ @media (min-width: 1368px) {
+  
+   a.next_project_btn{
+        right: -104px;
+   }
+ }
+@media (min-width: 992px) {
+  
+ }  
+@media(max-width: 992px){
+      .client-e-des{
+    margin-top: 0px;
+} 
+.process-img img{
+       max-width: 100%;
+}
+
+}
+@media(max-width:768px){
+	.main_content {
+		margin: 120px 0px 0px 0px;
+}
+
+ h2{
+    font-size: 20px;
+ }
+   .sub_heading {
+     margin-left: 0px;
+   	}
+  
+}
+
+@media(max-width:468px){
+    .credits {
+    margin-top: 50px;
+    padding-left: 20px;
+   }
+}   
