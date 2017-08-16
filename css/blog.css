@@ -197,9 +197,34 @@ input.btn.btn-lg{
 }
 
 @media(max-width: 768px){
-    .featured-article img{
+    .blog   .featured-article{
+        max-width: 380px;
+        margin: auto;
+        }  
+
+    .banner {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 330px;
+  height: 326px;
+  padding-left: 330px;
+     
+}
+
+.oneb{
+     background: url('../images/blogs/1.jpg') no-repeat;
+}
+
+.twob{
+     background: url('../images/blogs/2.jpg') no-repeat;
+}
+.threeb{
+     background: url('../images/blogs/3.jpg') no-repeat;
+}
+  /*  .featured-article img{
         height: 280px;
-    }
+    }*/
     .featured-article .light_para_b{
         display: none;
     }

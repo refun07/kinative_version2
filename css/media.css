@@ -271,6 +271,9 @@
 }
 
 @media(max-width: 468px) {
+  .padding-56l {
+    padding-left: 29px;
+  }
  
 }
 
