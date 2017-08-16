@@ -148,11 +148,17 @@
   
  }  
 @media(max-width: 992px){
+    .company-credit .credits {
+    margin: 70px 0px;
+}
       .client-e-des{
     margin-top: 0px;
 } 
 .process-img img{
-       max-width: 100%;
+       width: 100%;
+}
+#identity .img-responsive{
+    width: 100%;
 }
 
 }
@@ -160,7 +166,10 @@
 	.main_content {
 		margin: 120px 0px 0px 0px;
 }
-
+.credit_img{
+     background-position: -109px 0px;e
+}
+    
  h2{
     font-size: 20px;
  }

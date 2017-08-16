@@ -1,14 +1,20 @@
-
+.single-blog{
+        padding: 0px 0px 150px;
+}
+.f-14{
+    font-size: 14px;
+}
 .single-blog-header{
-	height: 198px;
     width: 66.66%;
-    padding: 22px 64px;
+    height: auto;
+    padding: 22px 64px 41px;
     top: -95px;
 }
 
 .single-blog-header .blog-heading{
 	font-size: 36px;
 	font-weight: 500;
+    line-height: 37px;
 }
 
 .margin-82px{
@@ -49,12 +55,14 @@
     background-repeat: no-repeat;
     padding: 50px;
 }
-
+.m-100%{
+    max-width: 100%!important;
+}
 #vidwrap {
 
     /* Your thumbnail image */
 
-    background: url('../images/blogs/videothumb.jpg') no-repeat center;
+    background: url('../images/blogs/videothumb.jpg') content-box;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -98,3 +106,4 @@
 .font-light{
   font-weight: 400;
 }
+

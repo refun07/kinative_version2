@@ -78,6 +78,9 @@ body{
 	.about{
 		padding:105px 0px 120px;
 	}
+  .about a:focus{
+        outline: none;
+  }
 	.video_bg {
     background: url(images/video_bg.jpg);
     background-size: cover;
@@ -102,6 +105,11 @@ body{
    box-shadow: 0 0 0 10px #fff, 0 0 0 10px #777, 0 1px 27px 6px rgba(0, 0, 0, 0.36);
   box-sizing: border-box;
   
+}
+
+.btn-mp{
+      padding:15px;
+      margin:85px 6px 0px;
 }
 /*.frame:before {
   border-radius: 2px;
@@ -508,8 +516,8 @@ body{
 
 .gift img{
    position: relative;
-   top: 18px;
-   left: 131px;
+  top: 27px;
+  left: 29%;
 }
 form:focus{
   outline: none;

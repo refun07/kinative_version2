@@ -52,11 +52,17 @@
 .service-card{
   margin: 60px 0px 15px;
 }
+#blog .inner-box{
+      max-width: 380px;
+    margin: auto;
+ }
 
 }
 
 @media (max-width: 992px) {
- 
+   .btn-mp{
+      margin: 30px 6px 0px !important;
+    }  
   .address {
     margin-top: 128px;
 }
@@ -86,6 +92,7 @@
 .tab-content{
    padding: 0px 15px;
 }
+
 }
 
 @media(max-width: 1200px) and (min-width: 992px) {
@@ -145,6 +152,9 @@
 }
 
 @media(max-width: 1200px) {
+  .margin-82px{
+    margin: 0px 0px 0px 0px;
+  }
 
    .kinative_para1{
    	margin: auto;
@@ -181,11 +191,14 @@
 }
 
 @media(max-width: 992px) {
+  .single-blog-header{
+    width: 100%
+  }
   .portfolio-des img{
   width: 100%;
 }
   .video_bg{
-    height: 36vh;
+    height: 294px;
   }
   .video{
     margin-top: 50px;
@@ -218,6 +231,12 @@
 
 
 @media(max-width:768px) {
+  .pagination>li {
+    display: table-cell;
+}
+  #vidwrap {
+    height: 200px;
+  }
   .nav-tabs{
     margin: 26px -92px -9px 42px;
   }
@@ -227,12 +246,16 @@
    .hellos{
     background-position: -707px 307px;
   }
+
+  .contributor{
+    background-position: 0px 0px;
+  }
   .icons::before {
    bottom: 212px;
  } 
  .section_tag{
   font-size: 30px;
-  margin-left: 12px;
+  margin-left: 2px;
  }
 #naming img{
   margin-top: -16px;

@@ -19,6 +19,9 @@ body{
 a:hover,a:visited,a:focus{
   text-decoration: none;
 }
+.f-14{
+  font-size: 14px;
+}
 .f-24{
    font-size: 24px;
 }
@@ -26,6 +29,9 @@ a:hover,a:visited,a:focus{
   display: inline-block;
 }
 
+.m40{
+  margin: 40px 0px;
+}
 .margin-t50{
   margin-top: 50px;
 }
@@ -74,7 +80,7 @@ a:hover,a:visited,a:focus{
    background: #f8f8f8;
     text-align: center;
     font-weight: 500;
-    padding: 85px 0px 86px;
+    padding: 100px 0px 86px;
 }
 
 .hvr-underline-from-left::before {
@@ -168,7 +174,7 @@ a:hover,a:visited,a:focus{
     -webkit-transition: all 0.7s ease-out;
     transition: all 0.7s ease-out;
     text-decoration: none;
-    margin: 0px 0px;
+    margin: 15px 0px;
     border: none;
 }
 
