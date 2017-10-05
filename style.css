@@ -386,12 +386,12 @@ body{
 }
 
 #blog .light_para_b{
-   font-size: 18px;
+  font-size: 16px;
     color: #969696;
     font-weight: 300;
-   text-align: center;
-    max-width: 811px;
-    margin: auto
+    text-align: center;
+    max-width: 690px;
+    margin: auto;
 }
  .data-box{
    position: absolute;
