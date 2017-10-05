@@ -14,10 +14,16 @@ body{
    font-family: 'Raleway', sans-serif;
 }
 .f-weight500{
-  font-weight: 500;
+  font-weight: 500!important;
+}
+.f-weight400{
+  font-weight: 400!important;
 }
 a:hover,a:visited,a:focus{
   text-decoration: none;
+}
+.f-32{
+  font-size: 32px;
 }
 .f-14{
   font-size: 14px;
@@ -27,6 +33,10 @@ a:hover,a:visited,a:focus{
 }
 .inline-block{
   display: inline-block;
+}
+
+.max-386{
+  max-width: 402px!important;
 }
 
 .m40{
@@ -75,6 +85,13 @@ a:hover,a:visited,a:focus{
 #naming img{
   margin-top: -24px;
 }
+.m-w{
+      max-width: 631px!important;
+}
+
+.max-433{
+  max-width: 467px!important;
+}
 
 .light_bg{
    background: #f8f8f8;
@@ -93,6 +110,29 @@ a:hover,a:visited,a:focus{
 .color-b-grey{
   color: #858585;
 }
+.auto{
+  margin: auto;
+}
+.text-center {
+    text-align: center!important;
+}
+.f-26{
+  font-size: 26px!important;
+}
+
+.b_para{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+
+.cus-m24{
+      margin: 25px 0px 0px!important
+}
+.cus-m39{
+   margin: 39px 0px 0px!important;
+
+}
 
 .dark_para{
     font-size: 14px;
@@ -107,6 +147,18 @@ a:hover,a:visited,a:focus{
 .s_dark_para_b{
   font-size: 18px;
     color: #969696;
+    font-weight: 400;
+
+}
+.light_para_s{
+  font-size: 16px;
+ color: #969696;
+  font-weight: 500;
+}
+.light_para_s_b{
+      font-size: 16px;
+    color: #000;
+    margin-left: 13px;
     font-weight: 400;
 
 }
@@ -200,7 +252,7 @@ h2{
 .section_tag{
     color: #000;
     display: inline-block; 
-     font-size: 48px;
+     font-size: 32px;
     font-weight: 900;
     margin-left: 24px
 }
@@ -265,4 +317,15 @@ h2{
 }
 .margin-top-75{
    margin-top: 75px;
+}
+
+.talks{
+    background: #f8f8f8;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: cover;
+    width: 100%;
+    padding: 60px 0px 100px;
 }

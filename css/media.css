@@ -60,12 +60,17 @@
 }
 
 @media (max-width: 992px) {
+
+  .content-box2{
+    margin: 0px 0px 30px;
+  }
    .btn-mp{
       margin: 30px 6px 0px !important;
     }  
   .address {
     margin-top: 128px;
 }
+ 
 /*.shopping_cart {
   	right: 22%;
    }  
@@ -96,6 +101,13 @@
 }
 
 @media(max-width: 1200px) and (min-width: 992px) {
+
+  .element-box{
+        padding: 10px 27px;
+  }
+  .content-box2 {
+    margin: -88px 14px 0px;
+}
   .nav-tabs {
   	display: inline-block;
     border-bottom: 0px;
@@ -152,6 +164,24 @@
 }
 
 @media(max-width: 1200px) {
+  .talk-card {
+    
+    margin: 40px auto 16px;
+     width: 100%;
+   } 
+  .fact_card_box{
+    width: 100%;
+  margin: 0px 0px 44px;
+  }
+  .extra-margin-top100{
+     margin-top: 150px;
+  }
+
+  .extra-margin-bottom100{
+     margin-bottom: 100px;
+  }
+
+  
   .margin-82px{
     margin: 0px 0px 0px 0px;
   }
@@ -191,11 +221,39 @@
 }
 
 @media(max-width: 992px) {
+  .web_features{
+    background: none;
+  }
+  .element-box{
+    margin-top: 50px;
+  }
+   .content-box3{
+     top: -10px;
+     padding-bottom: 30px;
+
+   }
+  .content-box2{
+    margin: 10px 0px 80px;
+  }
+  .f-content-box2{
+    display: none;
+  }
+ .f-content-box{
+  width: 100%!important;
+   margin-top: 80px;
+  }
+  .extra:before{
+    display: none;
+  }
+  .webdev_facts{
+   height: 100%;
+ }
   .single-blog-header{
     width: 100%
   }
   .portfolio-des img{
   width: 100%;
+  height: 300px;
 }
   .video_bg{
     height: 294px;
@@ -231,6 +289,17 @@
 
 
 @media(max-width:768px) {
+  .talk-cards {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .f-content-box{
+   padding: 20px 20px;
+  }
+  .padding-extra{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .pagination>li {
     display: table-cell;
 }
@@ -271,6 +340,7 @@
 }
 
 @media(max-width: 468px) {
+
   .padding-56l {
     padding-left: 29px;
   }
