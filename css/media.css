@@ -221,6 +221,9 @@
 }
 
 @media(max-width: 992px) {
+  .blog {
+    padding: 100px 0px 0px!important;
+}
   .web_features{
     background: none;
   }
@@ -289,6 +292,10 @@
 
 
 @media(max-width:768px) {
+  
+  .dark_bg{
+    padding: 114px 18px 0px;
+  }
   .talk-cards {
     padding-left: 10px;
     padding-right: 10px;

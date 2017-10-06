@@ -11,10 +11,13 @@ body{
 }*/
 
 .font-raleway{
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Raleway', sans-serif!important;
 }
 .f-weight500{
   font-weight: 500!important;
+}
+.f-weight600{
+  font-weight: 600!important;
 }
 .f-weight400{
   font-weight: 400!important;
@@ -31,6 +34,12 @@ a:hover,a:visited,a:focus{
 .f-24{
    font-size: 24px;
 }
+.f-26{
+  font-size: 26px;
+}
+.f-28{
+   font-size: 28px;
+}
 .inline-block{
   display: inline-block;
 }
@@ -38,6 +47,10 @@ a:hover,a:visited,a:focus{
 .max-386{
   max-width: 402px!important;
 }
+
+ .mt50{
+   margin-top: 50px;
+  }   
 
 .m40{
   margin: 40px 0px;
