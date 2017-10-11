@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 
 @media (min-width: 1268px) {
+  .service-row{
+        margin-left: 27px;
+  }
 .contact_map .shapeit_headings {
 	margin-left: 62px;
 }
@@ -119,6 +122,13 @@
    }
 }
  @media(max-width: 1200px) and (min-width: 768px) {
+  .service-box {
+    width: 43%;
+    margin: 8px 15px 18px 15px;
+    -webkit-box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
+    -moz-box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
+    box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
+}
  .icon-block {
  width: .74in;
  height: .74in;
@@ -221,6 +231,15 @@
 }
 
 @media(max-width: 992px) {
+  .web_features .margin-bottom-90 {
+     margin-bottom: 0px; 
+}
+  .services {
+     padding: 0px 0px 120px; */
+}
+  .services .row{
+   margin-top: 40px;
+  }
   .blog {
     padding: 100px 0px 0px!important;
 }
@@ -292,6 +311,48 @@
 
 
 @media(max-width:768px) {
+  .about {
+    padding: 30px 0px 80px;
+}
+.services {
+    padding: 0px 0px 80px;
+}
+  .web_process .margin-bottom-90 {
+     margin-bottom: 0px; 
+}
+.web_features{
+   padding: 30px 0px 40px;
+ } 
+ .margin-top-130 {
+     margin-top: 50px; 
+}
+.blog {
+    padding: 50px 0px 0px!important;
+}
+  .gift {
+    
+    background-position: -102px;
+}
+
+.gift img {
+    left: 17%;
+}
+.hellos .margin-top150 {
+    margin-top: 50px;
+}
+  .rel-header {
+       font-size: 56px;
+  }
+  .services .rel{
+    top:0px;
+  }
+  .services .row{
+    padding: 0px 34px 0px 20px;
+  }
+  .service-box {
+    width: 100%;
+    margin: 8px 15px 18px 15px;
+  }  
   
   .dark_bg{
     padding: 114px 18px 0px;

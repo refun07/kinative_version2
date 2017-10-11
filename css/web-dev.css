@@ -35,8 +35,8 @@
 }
 .dark_para3{
 	font-size: 16px;
-    color: #969696;
-    font-weight: 500;
+   color: #a7a7a7;
+    font-weight: 400;
     max-width: 650px;
     margin: 12px auto;
     padding: 0px 20px;
@@ -66,21 +66,7 @@
     transition: all 0.7s ease-out;
     background-color: rgb(255, 255, 255);
 }
-.content-box2{
-   background: #fff;
-    height: 177px;
-    padding: 30px 2px;
-    border-radius: 5px;
-    margin: -88px 17px;
-    text-align: center;
-    cursor: pointer;
-    -webkit-box-shadow: 3px 4px 13px 7px rgba(239, 235, 235, 0.25);
-    -moz-box-shadow: 3px 4px 13px 7px rgba(239, 235, 235, 0.25);
-    box-shadow: 3px 4px 13px 7px rgba(239, 235, 235, 0.25);
-    -webkit-transition: all 0.7s ease-out;
-    transition: all 0.7s ease-out;
-    background-color: rgb(255, 255, 255);
-}
+
 
 .element-box{
 	background: #fff;

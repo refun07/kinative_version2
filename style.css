@@ -137,6 +137,8 @@ body{
   top: -2.5vmin;
 }*/
 
+
+
 /*******************End of ABOUT US*************/
 #menu{
   padding: 15px 0px 180px;
@@ -295,6 +297,106 @@ body{
     transition-timing-function: ease-out;
 
 }*/
+.content-box2 {
+    background: #fff;
+    height: 177px;
+    padding: 30px 2px;
+    border-radius: 5px;
+    margin: -88px 17px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 4px 13px 7px rgba(239, 235, 235, 0.25);
+    -moz-box-shadow: 3px 4px 13px 7px rgba(239, 235, 235, 0.25);
+    box-shadow: 3px 4px 13px 7px rgba(239, 235, 235, 0.25);
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    background-color: rgb(255, 255, 255);
+}
+.service-box {
+    background: #fff;
+    height: 177px;
+    padding: 30px 2px;
+    border-radius: 5px;
+   
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    background-color: rgb(255, 255, 255);
+}
+.service-box{
+     width: 28%;
+    margin: 8px 15px 18px 15px;
+  -webkit-box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
+    -moz-box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
+    box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
+}
+
+
+.dark_para3{
+  font-size: 16px;
+   color: #a7a7a7;
+    font-weight: 400;
+    max-width: 950px;
+    margin: 12px auto;
+       padding: 0px 15px;
+}
+.good_feature {
+    background: #f8f8f8;
+    padding: 120px 0px 85px;
+}
+.fact-h {
+    font-size: 40px;
+    color: #fff;
+}
+.f-rw {
+    font-family: 'Raleway', sans-serif!important;
+}
+.rel-header {
+    position: relative;
+    z-index: -99;
+    font-size: 88px;
+    font-weight: 700;
+    top: 70px;
+    color: #ececec;
+}
+.rel {
+    position: relative;
+    z-index: 99;
+    top: 29px;
+}
+
+.web_features {
+    background: url(./images/webdev_service/bg_shape.png);
+    background-repeat: no-repeat;
+    background-position: 0px 260px;
+    padding: 100px 0px 89px;
+}
+
+.element-box{
+  background: #fff;
+    /* height: 180px; */
+   height: 310px;
+    padding: 40px 27px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 2px 16.2px 1.8px rgba(127, 119, 119, 0.3);
+    -moz-box-shadow: 0px 2px 16.2px 1.8px rgba(127, 119, 119, 0.3);
+    box-shadow: 0px 2px 16.2px 1.8px rgba(127, 119, 119, 0.3);
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    background-color: rgb(255, 255, 255);
+}
+
+.hr-liner {
+    width: 51px;
+    height: 4.4px;
+    background: red;
+    border-radius: 30px;
+    border-top: 0px;
+    margin-top: 17px;
+    margin-left: 0px;
+}
 
 /******************START OF PORTFOLIO***************/
 .portfolio{
@@ -625,3 +727,41 @@ address{
     left: 20px;
 }
 
+.footer {
+    background: #fff;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: auto;
+    padding: 52px 0px 24px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer .social_icons a {
+    color: #000000;
+  }
+  .footer .social_icons a:hover {
+    color: red
+  }
+.footer-icons{
+  margin-left: 22px;
+}
+  .footer-icons a{
+    padding: 0px 26px 0px 0px;
+  }
+.top-box{
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.19);
+  padding: 5px 5px;
+  border-radius: 7px;
+  margin-left: 24px;
+}
+.top-box a{
+  font-size: 18px;
+}
+  .top{
+    background: #000!important;
+    padding: 3px 8px 4px 8px!important;
+    color: #fff!important;
+    border-radius: 7px!important;
+  }

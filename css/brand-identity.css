@@ -38,3 +38,9 @@
     border-radius: 7px;
 
   }
+
+  @media(max-width:768px){
+    .main_content{
+      margin-top: 113px;
+    }
+  }

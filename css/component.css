@@ -9,6 +9,16 @@ body{
     padding-right:0!important;
     padding-left:0!important;
 }*/
+.heart {
+  background-image: url("../images/heart.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+   height: 16px;
+  width: 17px;
+  top: 3px;
+}
 
 .font-raleway{
    font-family: 'Raleway', sans-serif!important;
