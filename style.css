@@ -7,6 +7,19 @@ font-family: 'Raleway', sans-serif;*/
 body{
     overflow-x: hidden;
   }  
+ p::selection{
+  background:red;
+  color:#fff;
+ } 
+ a:selection{
+  color: red;
+ }
+
+  .adress_card{
+    position: absolute;
+    top : 177px;
+    left:-31px;
+  }
  .box-shadow{
   -webkit-box-shadow: 0px 2px 16.2px 1.8px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 2px 16.2px 1.8px rgba(0, 0, 0, 0.3);
@@ -327,9 +340,9 @@ body{
 .service-box{
      width: 28%;
     margin: 8px 15px 18px 15px;
-  -webkit-box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
-    -moz-box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
-    box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
+  -webkit-box-shadow: 13px 14px 16px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 13px 14px 16px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 13px 14px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -342,7 +355,7 @@ body{
        padding: 0px 15px;
 }
 .good_feature {
-    background: #f8f8f8;
+    background: #fcfcfc;
     padding: 120px 0px 85px;
 }
 .fact-h {
@@ -358,7 +371,7 @@ body{
     font-size: 88px;
     font-weight: 700;
     top: 70px;
-    color: #ececec;
+    color: #f5f4f4;
 }
 .rel {
     position: relative;
@@ -377,7 +390,7 @@ body{
   background: #fff;
     /* height: 180px; */
    height: 310px;
-    padding: 40px 27px;
+    padding: 40px 34px;
     border-radius: 10px;
     cursor: pointer;
     -webkit-box-shadow: 0px 2px 16.2px 1.8px rgba(127, 119, 119, 0.3);
@@ -735,6 +748,7 @@ address{
     -o-background-size: cover;
     height: auto;
     padding: 52px 0px 24px;
+    margin-top: 8px;
     box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.19);
 }
 

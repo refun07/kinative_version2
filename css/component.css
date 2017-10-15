@@ -29,6 +29,9 @@ body{
 .f-weight600{
   font-weight: 600!important;
 }
+.f-weight700{
+  font-weight: 700!important;
+}
 .f-weight400{
   font-weight: 400!important;
 }
@@ -57,7 +60,9 @@ a:hover,a:visited,a:focus{
 .max-386{
   max-width: 402px!important;
 }
-
+.ml25{
+  margin-left: 25px;
+}
  .mt50{
    margin-top: 50px;
   }   

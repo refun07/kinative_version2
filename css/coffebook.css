@@ -1,0 +1,58 @@
+.header{
+	background: url(../images/coffeebook/coffeebook_hero.jpg);
+	 background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main_content {
+    margin: 186px 0px 0px 0px;
+}
+.sub_heading{
+	margin-left: 0px;
+}
+.hr-line{
+	background: #5d331b;
+}
+
+.color-grey{
+	color: #5f341c;
+}
+
+.light_para_b{
+	color: #908179;
+	font-weight: 400;
+}
+
+.client-img img {
+    margin-top: 12px;
+    margin-left: 70px;
+}
+.challenge{
+	background: #f8f2e6;
+}
+.scopes li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    background: #5f341c;
+    left: 3px;
+    margin-top: 8px;
+}
+.color-b-grey {
+    color: #5f341c;
+}
+.process{
+	padding-bottom: 0px;
+}
+.identity{
+	padding-top: 0px;
+}
+.logo_identity{
+	background: #230c0a;
+	padding: 119px 0px 60px;
+}
+.design-rw .scopes li{
+      margin-bottom: -8px;
+}
+

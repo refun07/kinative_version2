@@ -16,7 +16,14 @@ $(function() {
     }
 });
 
- 
+ //scroll to top
+ //scroll to top
+$("a[href='#top']").click(function() {
+     $("html, body").animate({ scrollTop: 0 }, "slow");
+     return false;
+  });
+
+
  //magnificpop up
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
         disableOn: 700,
