@@ -8,12 +8,13 @@
 .header{
    background: url(../images/hero.jpg);
     background-size: cover;
-    height: 645px;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
 }
 
 .bg{
@@ -71,15 +72,16 @@
 }
 
 .opaque-navbar.opaque {
-   background-color: #000;
+    background-color: #000!important;
     height: 80px;
     transition: background-color .5s ease 0s;
     padding: 14px 0px;
     opacity: .8;
 }
 
-.header .kinative_para2{
+.header .kinative_para{
     margin: -12px 0px 26px;
+    text-align: justify;
 }
 .navbar-inverse .navbar-toggle{
     background-color: transparent;
@@ -104,6 +106,7 @@
 
 /*CHANGE THE BREAKPOINT*/
 @media (max-width: 992px) {
+    
 
   .navbar-header {
       float: none;

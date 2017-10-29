@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 
 @media (min-width: 1268px) {
- 
+  
   .service-row{
         margin-left: 27px;
   }
@@ -18,7 +18,27 @@
 
 }
 
+
+@media(min-width:992px){
+  .form-padd-contact {
+    margin-left: 166px!important;
+  } 
+}
+
 @media(max-width: 1200px) {
+ 
+  /* .content-box3{
+    top: -10px;
+    padding-bottom: 30px;
+
+  }
+ .content-box2{
+   margin: 10px 0px 80px;
+ } */
+ 
+  .services {
+    padding: 0px 0px 80px;
+}
   .nav-tabs{
     display: inline-block;
     border-bottom: 0px;
@@ -64,7 +84,7 @@
 }
 
 @media (max-width: 992px) {
-
+  
   .content-box2{
     margin: 0px 0px 30px;
   }
@@ -75,18 +95,7 @@
     margin-top: 128px;
 }
  
-/*.shopping_cart {
-  	right: 22%;
-   }  
-.about_facts ,.about_text_1 , .about_text_2{
-   padding-left:0px;
-   padding-right:0px;
-  
-}
-.inner-box{
-    max-width: 374px;
-    margin: auto;
-}*/
+
  .portfolio-des img{
  	  width: 100%;
  	  height: auto;
@@ -105,10 +114,60 @@
 }
 
 @media(max-width: 1200px) and (min-width: 992px) {
-
-  .element-box{
-        padding: 10px 27px;
+  .footer .social_icons{
+    margin-top: -11px;
   }
+  .talk-card {
+    margin: 40px 20px 0px;
+     width: 29%;
+   } 
+  .adress_card {
+   
+    top: 141px;
+  } 
+  
+  .header-text_right span {
+    display: inline-block;
+}
+.header .kinative_para{
+	margin: 12px auto;
+  text-align: left;
+}
+    .header-text_right span{
+    	display: inline-block;
+    }
+	.header-text_right{
+		margin-left:0px;
+		padding:0px 0px;
+	}
+	.header-text_left,.header-text_right{
+		text-align: left;
+	}
+	h1 {
+   
+    margin: -5px -2px 5px;
+   }
+  
+	.grey{
+    font-size: 3em;
+    margin: -17px 0px 6px;
+	}
+	.social_icons {
+		    margin: 0px 0px 18px;
+  }
+  .service-row{
+    margin-top: 90px;
+  }
+  .service-box {
+    width: 30%;
+    margin: 15px 15px 18px 15px;
+  }
+  .element-box{
+    padding: 29px 36px 34px;
+    margin: 20px 0px;
+    height: 243px;
+}
+  
   .content-box2 {
     margin: -88px 14px 0px;
 }
@@ -122,14 +181,26 @@
      text-align: center;
    }
 }
+
  @media(max-width: 1200px) and (min-width: 768px) {
-  .service-box {
-    width: 43%;
-    margin: 8px 15px 18px 15px;
-    -webkit-box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
-    -moz-box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
-    box-shadow: 15px 13px 18px 3px rgba(39, 33, 33, 0.14);
+  
+  .header_contents {
+    padding: 200px 0px 50px;
+    height: 554px;
 }
+  .text-just {
+    max-width:100%!important;
+}
+  .description {
+    max-width: 737px!important;
+    text-align: center;
+}
+  
+   .video_bg{
+    height: 320px!important;
+    
+   }
+ 
  .icon-block {
  width: .74in;
  height: .74in;
@@ -139,6 +210,9 @@
 }
 
 @media(max-width: 1200px) and (min-width: 458px) {
+  
+  
+  
 .offers{
    background:url(../images/features_res.jpg);
    text-align:center;
@@ -147,6 +221,9 @@
 }
 
 @media(max-width: 992px) and (min-width: 768px) {
+  .portfolio-item .portfolio-text {
+    margin-top: 70px;
+}
 
 .filtr-item .image-box {
   margin: 0px;
@@ -159,6 +236,7 @@
 }
 
 @media(max-width: 992px) and (min-width: 468px) {
+  
 
 .filtr-item .image-box {
 	margin: 0px;
@@ -175,11 +253,20 @@
 }
 
 @media(max-width: 1200px) {
-  .talk-card {
-    
-    margin: 40px auto 16px;
-     width: 100%;
-   } 
+   .width-mid-100{
+    max-width: 100%!important;
+}
+
+  .margin-top-130 {
+    margin-top: 50px; 
+}
+  .max-width100{
+    max-width: 100%;
+  }
+  .white_bg{
+    padding: 0px 0px 65px;
+   }
+  
   .fact_card_box{
     width: 100%;
   margin: 0px 0px 44px;
@@ -200,40 +287,92 @@
    .kinative_para1{
    	margin: auto;
    }
-   .header .kinative_para2{
-	margin: 12px auto;
-  text-align: center;
+.web_features{
+  background: none;
 }
-    .header-text_right span{
-    	display: block;
-    }
-	.header-text_right{
-		margin-left:0px;
-		padding:0px 0px;
-	}
-	.header-text_left,.header-text_right{
-		text-align: center;
-	}
-	h1 {
-    font-size: 2.7em;
-   }
-   .header-text_left .btn{
-   	display: none;
-   }
-	.grey{
-		font-size: 2em;
-		margin: 0px 0px
-	}
-	.social_icons {
-		    margin: 0px 0px 18px;
-	}
-
-
+.header{
+   height: 100%;
+}
 }
 
 @media(max-width: 992px) {
+ 
+  .hellos .margin-top150 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+  .content-box2{
+     margin: 0px 0px 15px;
+  }
+ 
+  .kinative_para1{
+    margin: auto;
+    max-width: 100%;
+  }
+  .header .kinative_para2{
+ margin: 12px auto;
+ text-align: center;
+}
+   .header-text_right span{
+     display: block;
+   }
+ .header-text_right{
+   margin-left:0px;
+   padding:0px 0px;
+ }
+ .header-text_left,.header-text_right{
+   text-align: center;
+ }
+ h1 {
+   font-size: 2.7em;
+  }
+  .header-text_left .btn{
+    display: none;
+  }
+ .grey{
+   font-size: 2em;
+   margin: 0px 0px
+ }
+ .social_icons {
+       margin: 0px 0px 18px;
+ }
+.kinative_para1 {
+  margin: auto;
+}
+.header .kinative_para{
+  margin: 12px auto;
+  text-align: center;
+}
+
+  #videos{
+    margin-top: 65px;
+  }
+  
+      
+    .about {
+      padding: 50px 0px 80px;
+  }
+  
+  .talks{
+    padding: 54px 0px 54px;
+  }
+  .kinative_para{
+    margin-top: 15px;
+  }
+  .text-center {
+    
+    margin: 15px 2px 20px;
+  }
+  .why_us {
+    padding: 70px 0px 0px;
+}
+  .header .kinative_para{
+   text-align: center;
+   margin: auto;
+ }
   .adress_card{
     left: 3px;
+    top: 65px;
    }
     .mt{
     text-align: center;
@@ -246,25 +385,19 @@
      padding: 0px 0px 120px; */
 }
   .services .row{
-   margin-top: 40px;
+   margin-top: 15px;
   }
   .blog {
     padding: 100px 0px 0px!important;
 }
   .web_features{
     background: none;
+    padding: 40px 0px 40px;
   }
   .element-box{
     margin-top: 50px;
   }
-   .content-box3{
-     top: -10px;
-     padding-bottom: 30px;
-
-   }
-  .content-box2{
-    margin: 10px 0px 80px;
-  }
+   
   .f-content-box2{
     display: none;
   }
@@ -296,7 +429,7 @@
 	margin-bottom: 40px;
 }
 .header_contents {
-    padding: 100px 0px 50px;
+    padding: 70px 0px 50px;
    }
  .header-text_right .btn{
  	margin:30px 0px;
@@ -319,6 +452,38 @@
 
 
 @media(max-width:768px) {
+  .white-popup{
+      max-width: 100%;
+  }
+   .form-padd-left{
+    padding: 32px 20px 23px 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .form-padd-right{
+    padding: 2px 20px 40px 20px;
+  }
+  #blog .content-box{
+    width: 100%;
+  }
+ 
+  
+  #bg_map{
+      position: relative;
+    background: 100%;
+    height: 283px;
+    width: 105%;
+}
+
+  .portfolio-item .portfolio-text{
+    margin-top: 80px;
+  }
+  .text-center {
+    text-align: center!important;
+   /* margin: 0px 2px 20px;*/
+}
+
   .ml25{
     margin-left: 0px;
   }
@@ -328,18 +493,12 @@
   .about {
     padding: 30px 0px 80px;
 }
-.services {
-    padding: 0px 0px 80px;
-}
+
   .web_process .margin-bottom-90 {
      margin-bottom: 0px; 
 }
-.web_features{
-   padding: 30px 0px 40px;
- } 
- .margin-top-130 {
-     margin-top: 50px; 
-}
+
+ 
 .blog {
     padding: 50px 0px 0px!important;
 }
@@ -351,20 +510,18 @@
 .gift img {
     left: 17%;
 }
-.hellos .margin-top150 {
-    margin-top: 50px;
-}
+
   .rel-header {
        font-size: 56px;
   }
-  .services .rel{
-    top:0px;
-  }
-  .services .row{
+  .services .rel {
+    top: -75px;
+}
+  /*.services .row{
     padding: 0px 34px 0px 20px;
-  }
+  }*/
   .service-box {
-    width: 100%;
+    width: 94%;
     margin: 8px 15px 18px 15px;
   }  
   
@@ -394,9 +551,7 @@
   .process-icons{
     margin-top: 15px;
   }
-   .hellos{
-    background-position1: -707px 307px;
-  }
+  
 
   .contributor{
     background-position: 0px 0px;
@@ -404,24 +559,41 @@
   .icons::before {
    bottom: 212px;
  } 
+ 
  .section_tag{
-  font-size: 30px;
-  margin-left: 2px;
+  font-size: 24px!important;
+  margin-left: 10px;
  }
+ .f-26{
+  font-size: 24px!important;
+ }
+ 
 #naming img{
   margin-top: -16px;
     width: 24px;
+  display: inline;
 }
 
 }
 
 @media(max-width: 600px) {
-  .portfolio-item .portfolio-text{
-  	margin-top: 80px;
-  }
+  
 }
 
 @media(max-width: 468px) {
+  .kinative_para {
+    max-width: 743px!important;
+}
+  .m-w{
+    max-width: 360px!important;
+    margin:15px auto 0px;
+   }
+  .talk-card {
+    
+    margin: 40px auto 0px;
+     width: 100%!important;
+   } 
+
 
   .padding-56l {
     padding-left: 29px;

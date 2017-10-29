@@ -213,7 +213,8 @@ input.btn.btn-lg{
 }
 
 .oneb{
-     background: url('../images/blogs/1.jpg') no-repeat;
+     /*background: url('../images/blogs/1.jpg') no-repeat;*/
+     margin-left: -60%;
 }
 
 .twob{

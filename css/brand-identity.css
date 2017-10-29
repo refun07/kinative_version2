@@ -1,6 +1,21 @@
 .pad120{
  padding: 100px 0px 30px;
 }
+.service-text{
+  padding: 125px 0px 0px 100px;
+  /* 21px 0px 0px 50px; */
+
+}
+.service_heading{
+   font-size: 30px!important;
+   font-weight: 500!important;
+   line-height: 36px!important;
+   max-width: 500px;
+  }
+  .service-text .kinative_para{
+     max-width: 498px;
+     margin: 19px 0px 28px;
+  }
 .navbar-brand>img {
     margin-top: -8px;
     margin-left: 25px;
@@ -12,7 +27,7 @@
     margin: 186px 0px 0px 0px;
 }
 .logo_features{
-    padding: 50px 0px 89px;
+    padding: 10px 0px 89px;
 }
 .dark_para2 {
     font-size: 18px;
@@ -38,6 +53,17 @@
     border-radius: 7px;
 
   }
+@media(max-width:1200px){
+  .service_heading {
+    font-size: 24px!important;
+  }  
+  .service-text{
+    padding: 61px 0px 17px 35px;
+  }
+  .service-text .kinative_para{
+    width: 91%;
+  }
+}
 
   @media(max-width:768px){
     .main_content{

@@ -1,14 +1,63 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
 
 body{
-	font-family: 'Roboto', sans-serif;
+	  font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
 }
-/*.no-gutter > [class*='col-'] {
-    padding-right:0!important;
-    padding-left:0!important;
-}*/
+.hameid-loader-overlay {
+  width: 100%;
+  height: 100%;
+  background: url('../images/kinative_gif.gif') center no-repeat #FFF;
+  z-index: 99999;
+  position: fixed;
+}
+p::selection{
+  background:red;
+  color:#fff;
+ } 
+ a:selection{
+  color: red;
+ }
+::selection {
+  background:red;
+  color:#fff;
+  }  
+.kinative_para{
+  font-size : 16px; 
+   font-weight: 400;
+  color: #969696;
+  line-height: 22.3px;
+  max-width: 458px;
+}
+
+.max-width458{
+  max-width: 458px;
+}
+.max-width743{
+  max-width: 743px;
+}
+
+
+
+.text-just{
+  text-align: justify;
+}
+
+.talk-card {
+    background: #fff;
+    margin: 8px 15px 18px 15px;
+    text-align: center;
+    padding: 26px 0px;
+    height: 150px;
+    width: 28%;
+    border-radius: 7px;
+    -webkit-box-shadow: 13px 14px 16px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:13px 14px 16px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 13px 14px 16px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.7s ease-out;
+}
 .heart {
   background-image: url("../images/heart.png");
   background-size: 100%;
@@ -56,6 +105,9 @@ a:hover,a:visited,a:focus{
 .inline-block{
   display: inline-block;
 }
+.inline{
+  display: inline;
+}
 
 .max-386{
   max-width: 402px!important;
@@ -66,7 +118,9 @@ a:hover,a:visited,a:focus{
  .mt50{
    margin-top: 50px;
   }   
-
+.margin-t25{
+  margin-top: 25px;
+}
 .m40{
   margin: 40px 0px;
 }
@@ -114,7 +168,14 @@ a:hover,a:visited,a:focus{
   margin-top: -24px;
 }
 .m-w{
-      max-width: 631px!important;
+      max-width: 684px!important;
+}
+.m-t15{
+  margin-top: 13px;
+  margin-bottom: 18px;
+}
+.m-auto{
+  margin: auto;
 }
 
 .max-433{
@@ -127,6 +188,11 @@ a:hover,a:visited,a:focus{
     font-weight: 500;
     padding: 100px 0px 86px;
 }
+.white_bg{
+   background: #fff!important;
+   padding: 20px 0px 125px;
+    
+}
 
 .hvr-underline-from-left::before {
     background: red;
@@ -138,14 +204,15 @@ a:hover,a:visited,a:focus{
 .color-b-grey{
   color: #858585;
 }
+
 .auto{
-  margin: auto;
+   margin: 10px auto 0px;
 }
 .text-center {
     text-align: center!important;
 }
 .f-26{
-  font-size: 26px!important;
+  font-size: 32px!important;
 }
 
 .b_para{
@@ -182,10 +249,12 @@ a:hover,a:visited,a:focus{
   font-size: 16px;
  color: #969696;
   font-weight: 500;
+  margin-left: 25px;
 }
 .light_para_s_b{
       font-size: 16px;
-    color: #000;
+      color: #969696;
+      line-height: 22.3px;
     margin-left: 13px;
     font-weight: 400;
 
@@ -237,9 +306,13 @@ a:hover,a:visited,a:focus{
   background-position: 1% 50%;
   background-size: 300% 300%;*/
   text-decoration: none;
-  margin: 0px 10px;
+  /*margin: 0px 10px;*/
   border: none;
   border: 1px solid red;
+}
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
 }
 .btn_black {
     width: 165px;
@@ -269,9 +342,10 @@ a:hover,a:visited,a:focus{
 }
 
 h1{
-	font-size: 4.3em;
+	    font-size: 48px;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
+    margin: 48px -2px 17px;
 }
 h2{
     font-size: 34px;
@@ -279,17 +353,17 @@ h2{
 }
 .section_tag{
     color: #000;
-    display: inline-block; 
+    display: inline; 
      font-size: 32px;
     font-weight: 900;
-    margin-left: 24px
+    margin-left: 14px
 }
 .grey{
-    display: block;
-   color:#494949;
-    font-size: 2.9em;
+   display: block;
+    color: #494949;
+    font-size: 3.2em;
     font-weight: 700;
-    margin: -21px 0px;
+    margin: -21px -9px -17px;
 }
 .social_icons a{
 	font-size: 16px;
@@ -355,5 +429,5 @@ h2{
     -o-background-size: cover;
     background-repeat: cover;
     width: 100%;
-    padding: 60px 0px 100px;
+    padding: 147px 0px 147px;
 }
