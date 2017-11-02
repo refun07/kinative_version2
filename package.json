@@ -1,0 +1,26 @@
+{
+  "name": "kinative_gulfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Refun/kinative_version2.git"
+  },
+  "author": "Azmir Shabib Refun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Refun/kinative_version2/issues"
+  },
+  "homepage": "https://github.com/Refun/kinative_version2#readme"
+}
