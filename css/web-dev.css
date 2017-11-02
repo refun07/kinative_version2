@@ -41,14 +41,14 @@
 .expect .kinative_para{
     margin: 12px 0px 0px;
     max-width: 458px;
-    padding: 7px 17px 0px;
+    padding: 0px 17px 0px;
     font-weight: 500;
 }
 .web_features{
     background: url(../images/webdev_service/bg_shape.png);
    background-repeat: no-repeat;
     background-position: 0px 260px;
-    padding: 100px 0px 89px;
+    padding: 10px 0px 89px;
 }
 
 .content-box3{
@@ -101,33 +101,49 @@
     padding: 0px 0px 120px;
 }
 
+.webdev_facts .mar-t115{
+    margin-top: 105px;
+}
+.good_feature .rel-header{
+     font-weight: 900!important;
+}
+.good-feature_right  .kinative_para{
+    max-width: 100%;
+    margin-left: 6px;
+    font-weight: 500;
+}
 .feature_point{
 	 margin: 132px 0px 15px;
+}
+.padd_0{
+    padding-right: 0px;
+    padding-left: 0px
 }
 
 .feature_points{
 	background: #fff;
-    padding: 20px 27px 10px;
+    padding: 20px 0px 10px 25px;
     cursor: pointer;
     border-radius: 5px;
     margin-bottom: 20px;
-    -webkit-box-shadow: 0px 2px 16.2px 1.8px rgba(127, 119, 119, 0.3);
-    -moz-box-shadow: 0px 2px 16.2px 1.8px rgba(127, 119, 119, 0.3);
-    box-shadow: 0px 2px 16.2px 1.8px rgba(127, 119, 119, 0.3);
+    -webkit-box-shadow: 4px 3px 12px 2px rgba(127, 119, 119, 0.3);
+    -moz-box-shadow: 4px 3px 12px 2px rgba(127, 119, 119, 0.3);
+    box-shadow: 4px 3px 12px 2px rgba(127, 119, 119, 0.3);
     -webkit-transition: all 0.7s ease-out;
     transition: all 0.7s ease-out;
 }
 .rel{
-	position: relative;
+	
+    position: relative;
     z-index: 99;
-    top: 123px;
+    margin-top: 99px;
 }
 .rel-header{
 	position: relative;
     z-index: -99;
     font-size: 88px;
     font-weight: 700;
-    top: 70px;
+    top: 64px;
     color: #ececec;
 }
 .number{
@@ -136,7 +152,7 @@
     /* width: 1px; */
     color: #fff;
     padding: 1px 6px;
-    border-radius: 3px;
+    
 }
 
 .webdev_facts{
@@ -145,7 +161,7 @@
 
 }
 .fact-h{
-	font-size: 40px;
+	font-size: 38px;
 	color: #fff;
 }
 .fact_card_box{
@@ -181,18 +197,18 @@
     font-weight: 500;
     color: #000;
     /*display: inline-block;*/
-    margin: -49px 0px 0px 0px;
+    margin: 22px 0px -6px 0px;
 }
 .f-content-box{
 	background: #fff;
-    height: 400px;
-    padding: 30px 73px;
+    height: 364px;
+    padding: 38px 73px 0px;
     border-radius: 12px;
     width: 45%;
     cursor: pointer;
-    -webkit-box-shadow: 0px 2px 16.2px 1.8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 2px 16.2px 1.8px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 2px 16.2px 1.8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 7px 7px 30px 1.2px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 7px 7px 30px 1.2px rgba(0, 0, 0, 0.18);
+    box-shadow: 7px 7px 30px 1.2px rgba(0, 0, 0, 0.18);
     -webkit-transition: all 0.7s ease-out;
     transition: all 0.7s ease-out;
     background-color: rgb(255, 255, 255);
@@ -234,13 +250,14 @@
 
 
 .frel-header{
+    font-family: roboto;
 	position: relative;
     z-index: -99;
-    font-size: 8.2em;
+    font-size: 8.3em;
     font-weight: 700;
-    top: 14px;
+    top: 22px;
     left: -8px;
-    color: #ececec;
+    color: #F4F4F4
 }
 
 .web_process{
@@ -262,7 +279,14 @@
        box-shadow: 6px 5px 15.9px 0.8px rgba(0, 0, 0, 0.3);
     -webkit-transition: all 0.7s ease-out;
 }
-
+.ecommerse-icon, .ux-icon, .webdesign-icon, .webapp-icon, .ui-icon
+{ display: inline-block; background: url('../images/webdev_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.ecommerse-icon { background-position: -2px -0px; width: 85px; height: 70px; }
+.ux-icon { background-position: -2px -72px; width: 79px; height: 64px; }
+.webdesign-icon { background-position: -2px -138px; width: 73px; height: 58px; }
+.webapp-icon { background-position: -2px -198px; width: 72px; height: 63px; }
+.ui-icon { background-position: -2px -263px; width: 65px; height: 60px; }
 
 @media(max-width:1200px) and (min-width:992px){
     .header{

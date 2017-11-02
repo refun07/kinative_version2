@@ -53,6 +53,18 @@
     border-radius: 7px;
 
   }
+
+
+ 
+.brand-logoicon, .brand-webicon, .brand-printicon, .brand-marketicon, .brand-packageicon
+{ display: inline-block; background: url('../images/brand_identity_sprite2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.brand-logoicon { background-position: -5px -0px; width: 76px; height: 65px; }
+.brand-webicon { background-position: -5px -70px; width: 73px; height: 58px; }
+.brand-printicon { background-position: -5px -133px; width: 70px; height: 65px; }
+.brand-marketicon { background-position: -5px -203px; width: 69px; height: 63px; }
+.brand-packageicon { background-position: -5px -271px; width: 41px; height: 58px; }
+
 @media(max-width:1200px){
   .service_heading {
     font-size: 24px!important;

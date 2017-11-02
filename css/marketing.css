@@ -1,0 +1,78 @@
+.header {
+    background: url(../images/marketing/marketing_hero.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.pad120{
+ padding: 100px 0px 30px;
+}
+.service-text{
+  padding: 125px 0px 0px 100px;
+  /* 21px 0px 0px 50px; */
+
+}
+.service_heading{
+   font-size: 30px!important;
+   font-weight: 500!important;
+   line-height: 36px!important;
+   max-width: 500px;
+  }
+  .service-text .kinative_para{
+     max-width: 498px;
+     margin: 19px 0px 28px;
+  }
+.navbar-brand>img {
+    margin-top: -8px;
+    margin-left: 25px;
+}
+.max-width471{
+   max-width: 416px;
+ }   
+.main_content {
+    margin: 186px 0px 0px 0px;
+}
+.logo_features{
+    padding: 10px 0px 89px;
+}
+.dark_para2 {
+    font-size: 18px;
+    color: #969696;
+    font-weight: 500;
+    max-width: 663px;
+    margin: 0px 0px 12px;
+  }  
+
+  .dark_bg{
+    background: #f8f8f8;
+    height: 665px;
+    padding: 115px 100px 0px;
+  }
+
+  .img-box{
+    display: inline-block;
+    -webkit-box-shadow: 5px 6px 18.2px 1.8px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px 6px 18.2px 1.8px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 6px 18.2px 1.8px rgba(0, 0, 0, 0.15);
+    padding: 34px 30px 39px;
+    background: #fff;
+    border-radius: 7px;
+
+  }
+@media(max-width:1200px){
+  .service_heading {
+    font-size: 24px!important;
+  }  
+  .service-text{
+    padding: 61px 0px 17px 35px;
+  }
+  .service-text .kinative_para{
+    width: 91%;
+  }
+}
+
+  @media(max-width:768px){
+    .main_content{
+      margin-top: 113px;
+    }
+  }

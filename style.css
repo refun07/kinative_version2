@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
 
 /*for raleway font
@@ -6,6 +6,14 @@ font-family: 'Raleway', sans-serif;*/
 
 body{
     overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .mfp-wrap {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  html.mfp-helper {
+    height: 100%;
   }
   .form-white{
     background: #fff!important;
@@ -13,7 +21,6 @@ body{
   
   .form-padd-contact {
     padding: 72px 20px 43px 20px!important;
-    /* margin-left: 166px!important; */
     background: #fff!important;
     border-radius: 15px!important;
 }
@@ -25,10 +32,9 @@ body{
   max-width: 63%;
   margin: 20px auto;
   border-radius: 15px;
-  /* webkit-box-shadow: 0px 0px 14px 4px rgba(230,225,230,0.82);
-  -moz-box-shadow: 0px 0px 14px 4px rgba(230,225,230,0.82);
-  box-shadow: 0px 0px 14px 4px rgba(230,225,230,0.82); */
+  
 }
+
 
 
 .ui-datepicker .ui-datepicker-header {
@@ -68,16 +74,7 @@ body{
   background: #eee;
   
 }
-/* .mfp-bg {
-  background: #fff;
-  opacity: .9;
-} */
-/* #talk .modal-btn .button.btn.hvr-bounce-to-right{
-  width: 100%!important;
-  border-radius: 11px!important;
-  color: #fff!important;
-  background: red!important;
-} */
+
 .form-padd-left{
   padding: 63px 42px 78px 44px;
   border-top-left-radius: 15px;
@@ -87,7 +84,7 @@ body{
   padding: 72px 100px 0px 70px;
 }
 hr{
-  border-top: 1px solid rgb(247, 242, 242);
+  border-top: 1px solid rgb(117, 113, 113);
 }
 .form-group{
   margin-bottom: 28px;
@@ -962,3 +959,23 @@ address{
   }
 
  
+ .home-brandicon, .home-businessicon, .home-eventicon, .home-marketingicon, .home-photoicon, 
+.home-printicon, .home-socialicon, .home-webicon
+{ display: inline-block; background: url('images/home_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.home-brandicon { background-position: -2px -0px; width: 94px; height: 58px; }
+.home-businessicon { background-position: -98px -0px; width: 94px; height: 58px; }
+.home-eventicon { background-position: -2px -60px; width: 94px; height: 58px; }
+.home-marketingicon { background-position: -98px -60px; width: 94px; height: 58px; }
+.home-photoicon { background-position: -2px -120px; width: 94px; height: 58px; }
+.home-printicon { background-position: -98px -120px; width: 94px; height: 58px; }
+.home-socialicon { background-position: -2px -180px; width: 94px; height: 58px; }
+.home-webicon { background-position: -98px -180px; width: 94px; height: 58px; }
+
+
+.phone-icon, .meeting-icon, .skype-icon
+{ display: inline-block; background: url('images/contact.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.phone-icon { background-position: -2px -0px; width: 65px; height: 65px; }
+.meeting-icon { background-position: -2px -67px; width: 63px; height: 63px; }
+.skype-icon { background-position: -2px -132px; width: 59px; height: 59px; }

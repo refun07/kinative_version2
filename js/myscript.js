@@ -1,5 +1,5 @@
 
-$(function() {
+jQuery(document).ready(function ($) {
  "use strict";
    /*
   **********************************************************
@@ -16,18 +16,7 @@ $(function() {
     }
 });
 
-   
 
-
-//value
-
-
-
-//initialize forms
-$('.open-popup-link').magnificPopup({
-  type:'inline',
-  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-});
 
  //scroll to top
  //scroll to top
@@ -37,8 +26,21 @@ $("a[href='#top']").click(function() {
   });
 
 
+  //initialize forms
+$('.open-popup-link1').magnificPopup({
+    type:'inline',
+    disableOn: 700,
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+    disableOn:0,
+    fixedContentPos: true,
+    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+  });
+
+
  //magnificpop up
-    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+    $('.popup-youtube').magnificPopup({
         disableOn: 700,
         type: 'iframe',
         mainClass: 'mfp-fade',
@@ -49,6 +51,21 @@ $("a[href='#top']").click(function() {
         fixedContentPos: false
     });
  
+    //value
+    $('.open-popup-link2').magnificPopup({
+        type:'inline',
+        disableOn: 700,
+        //type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        disableOn:0,
+        fixedContentPos: true
+       // midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+      });
+    
+    
+    
 
 //wow
 new WOW().init();
