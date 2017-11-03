@@ -1,4 +1,4 @@
-<?php include('inc/header.php'); ?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -27,8 +27,11 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
 <link href="css/component.css" rel="stylesheet"/>
 <link href="css/header.css" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
+<link href="css/blog.css" rel="stylesheet"/>
+<link href="css/single-blog.css" rel="stylesheet"/>
 
 <link href="css/media.css" rel="stylesheet"/>
+
  <!-- <script data-main="scripts/main" src="libraries/require.js"></script> -->
 </head>
 
@@ -39,8 +42,8 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
 * HEADER SECTION
 ********************************************************************
 -->
-<section id="header" class="header">
-<div class="bg">
+<section id="header" class="header main-header">
+
 <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
 <div class="container">
   
@@ -70,7 +73,7 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
   </div>
   </div>
 </div>
-
+</section>
 
 
   

@@ -667,15 +667,16 @@
 }
 }
 
-@media(max-width: 600px) {
+/*@media(max-width: 600px) {
   
-}
+}*/
 
 @media(max-width: 468px) {
-   /*.feature_points{
-    height: 100%;
-    text-align: center;
-  }*/
+   
+  .single-blog-header .blog-heading{
+    font-size: 32px!important;
+    padding-left: 0px!important;
+  }
   .f-content-box{
    
     height: 400px!important;

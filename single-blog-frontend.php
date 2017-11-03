@@ -27,6 +27,12 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
 <link href="css/component.css" rel="stylesheet"/>
 <link href="css/header.css" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
+<!-- <link href="css/blog.css" rel="stylesheet"/> -->
+<link href="css/single-blog.css" rel="stylesheet"/>
+
+
+
+<link href="css/single-blog-v2.css" rel="stylesheet"/>
 
 <link href="css/media.css" rel="stylesheet"/>
  <!-- <script data-main="scripts/main" src="libraries/require.js"></script> -->
@@ -39,8 +45,8 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
 * HEADER SECTION
 ********************************************************************
 -->
-<section id="header" class="header">
-<div class="bg">
+<section id="header" class="header main-header">
+
 <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
 <div class="container">
   
@@ -70,6 +76,7 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
   </div>
   </div>
 </div>
+</section>
 
 
 
@@ -175,16 +182,16 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
                      
 
                      <h2 class="blog-heading margin-t35">Must have skills to work on Front end part<mark class="red">.</mark></h2> 
-                    <h3 class="blog-points">1. HTML/CSS</h3> 
-                    <h3 class="blog-points">2. Basic Photoshop,Invision</h3> 
-                    <h3 class="blog-points">3. Javascript AND Jquery</h3>
-                    <h3 class="blog-points">4. Angular.js,React.js,Vue.js,Ember.js</mark></h3>
-                    <h3 class="blog-points">5. Gulp,Webpack</mark></h3>
-                    <h3 class="blog-points">6. Css Preprocessing</h3>
-                    <h3 class="blog-points">7. Command Line and Version Control</h3>
-                    <h3 class="blog-points">8. Resposive Design</h3>
-                    <h3 class="blog-points">9. Testing/Debugging</h3>
-                    <h3 class="blog-points">10. Knowledge of REST API</h3> 
+                   <p class="blog-para max-738">1. HTML/CSS</p> 
+                    <p class="blog-para max-738">2. Basic Photoshop,Invision</p> 
+                   <p class="blog-para max-738">3. Javascript AND Jquery</p>
+                   <p class="blog-para max-738">4. Angular.js,React.js,Vue.js,Ember.js</p>
+                   <p class="blog-para max-738">5. Gulp,Webpack</p>
+                   <p class="blog-para max-738">6. Css Preprocessing</p>
+                    <p class="blog-para max-738">7. Command Line and Version Control</p>
+                    <p class="blog-para max-738">8. Resposive Design</p>
+                  <p class="blog-para max-738">9. Testing/Debugging</p>
+                   <p class="blog-para max-738">10. Knowledge of REST API</p> 
                     <p class="blog-para max-738"> Happy learning and implementing is the way to go. Learn one by one and never fear to try. Because If you don’t go through the period of trying and failing simultaneously, you may never be creative!.
                     </p>
 

@@ -24,12 +24,14 @@
 href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jquery-ui.css"    />
 
 
-
+<link href="css/component.css" rel="stylesheet"/>
 <link href="css/header.css" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
-<!--  -->
-<link href="css/component.css" rel="stylesheet"/>
-<link href="css/blog.css" rel="stylesheet"/>
+<!-- <link href="css/blog.css" rel="stylesheet"/> -->
+<link href="css/single-blog.css" rel="stylesheet"/>
+
+
+
 <link href="css/single-blog-v2.css" rel="stylesheet"/>
 
 <link href="css/media.css" rel="stylesheet"/>
@@ -44,7 +46,7 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
 ********************************************************************
 -->
 <section id="header" class="main-header">
-<div class="bg">
+
 <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
 <div class="container">
   
@@ -74,6 +76,8 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
   </div>
   </div>
 </div>
+</section>
+
 
 
 
@@ -85,7 +89,7 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
   <div class="container">
        <div class="row">
 
-            <div class="content-box single-blog-header col-md-10 col-md-offset-1 col-xs-10">
+            <div class="content-box single-blog-header col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
                          
                           <h2 class="blog-heading">The importance of user research in the field of ux design</h2>
                            <h3 class="single-blog-auth">
