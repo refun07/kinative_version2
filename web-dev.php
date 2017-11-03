@@ -306,7 +306,7 @@
       
      
 <!-- ================================ Start OF PORTFOLIOS ====================-->
-<?php include('inc/portfolio_home.php'); ?>
+<?php include('inc/portfolio_wev.php'); ?>
 
 
 
