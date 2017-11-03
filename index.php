@@ -107,9 +107,15 @@
               
               <p class="kinative_para text-just cus-m24">Our main goal is to facilitate your business and help you grow. Spending money in design, development and marketing campaigns is not an expense. These are investments and we make sure that our services helps your investments to generate the best outcome by channeling all out efforts to one and only one single goal, "your growth"
               </p>
-              <div><a href="#" class="btn hvr-bounce-to-right cus-m39">SCHEDULE MEETING</a></div>
-              
+              <div><a href="#test-popup" class="open-popup-link1 btn hvr-bounce-to-right cus-m39">SCHEDULE MEETING</a></div>
+             
+              <div id="test-popup" class="white-popup mfp-hide">
+                          <?php include('inc/form_schedule.php'); ?>
+              </div>
+             
+               </div>
           </div>
+          
          <div class="col-md-6 col-md-offset-1 video" id="videos">   
          <div class="frame" style="text-align: center;">
          <div class="video_bg">
