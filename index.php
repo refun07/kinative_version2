@@ -113,7 +113,7 @@
                           <?php include('inc/form_schedule.php'); ?>
               </div>
              
-               </div>
+               
           </div>
           
          <div class="col-md-6 col-md-offset-1 video" id="videos">   

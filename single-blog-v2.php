@@ -24,9 +24,13 @@
 href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jquery-ui.css"    />
 
 
-<link href="css/component.css" rel="stylesheet"/>
+
 <link href="css/header.css" rel="stylesheet"/>
 <link href="style.css" rel="stylesheet"/>
+<!--  -->
+<link href="css/component.css" rel="stylesheet"/>
+<link href="css/blog.css" rel="stylesheet"/>
+<link href="css/single-blog-v2.css" rel="stylesheet"/>
 
 <link href="css/media.css" rel="stylesheet"/>
  <!-- <script data-main="scripts/main" src="libraries/require.js"></script> -->
@@ -39,7 +43,7 @@ href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jque
 * HEADER SECTION
 ********************************************************************
 -->
-<section id="header" class="header">
+<section id="header" class="main-header">
 <div class="bg">
 <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
 <div class="container">
